@@ -4,6 +4,10 @@
         "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
     },
     {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
         "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
         "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.1.0\\res\\raw\\gtm_analytics"
     }

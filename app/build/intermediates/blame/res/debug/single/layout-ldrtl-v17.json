@@ -1,5 +1,17 @@
 [
     {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout-ldrtl\\md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_singlechoice.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout-ldrtl\\md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_simplelist_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout-ldrtl\\md_simplelist_item.xml"
+    },
+    {
         "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
         "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout-ldrtl\\md_listitem_multichoice.xml"
     },
