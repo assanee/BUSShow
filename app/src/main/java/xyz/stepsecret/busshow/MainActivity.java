@@ -1,23 +1,42 @@
 package xyz.stepsecret.busshow;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Handler;
+import android.preference.PreferenceManager;
+import android.support.annotation.ColorInt;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.location.Location;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.google.android.gms.iid.InstanceID;
 import com.google.android.gms.location.LocationAvailability;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
@@ -29,7 +48,18 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.jaredrummler.materialspinner.MaterialSpinner;
+import com.larswerkman.lobsterpicker.LobsterPicker;
+import com.larswerkman.lobsterpicker.OnColorListener;
+import com.larswerkman.lobsterpicker.sliders.LobsterOpacitySlider;
+import com.larswerkman.lobsterpicker.sliders.LobsterShadeSlider;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout;
 import retrofit.Callback;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;
@@ -37,18 +67,34 @@ import retrofit.client.Response;
 
 import xyz.stepsecret.busshow.API.Get_EV;
 import xyz.stepsecret.busshow.API.Get_Station;
+import xyz.stepsecret.busshow.API.PutTOKEN_API;
 import xyz.stepsecret.busshow.Cumulative.Cumulative;
 import xyz.stepsecret.busshow.Distance.Distance;
+import xyz.stepsecret.busshow.GCM.QuickstartPreferences;
+import xyz.stepsecret.busshow.GCM.RegistrationIntentService;
 import xyz.stepsecret.busshow.Model.Get_EV_Model;
 import xyz.stepsecret.busshow.Model.Get_Station_Model;
+import xyz.stepsecret.busshow.Model.PutTOKEN_Model;
+import xyz.stepsecret.busshow.TinyDB.TinyDB;
 
 public class MainActivity extends FragmentActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, LocationListener, GoogleMap.OnMarkerClickListener {
+
+    //GCM
+    private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
+    private static final String TAG = "MainActivity";
+
+    private BroadcastReceiver mRegistrationBroadcastReceiver;
+    //private ProgressBar mRegistrationProgressBar;
+
+
+///////////////////////
 
     private GoogleApiClient googleApiClient;
     private TextView textView;
     private TextView textView2;
     private TextView textView3;
+
 
     private RelativeLayout First_show;
     private RelativeLayout Second_show;
@@ -62,6 +108,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     public static GoogleMap Main_Map;
     public static Marker EV_Marker;
+    public static Marker Your_Marker;
     public static Marker[] ST_Marker;
     public static LatLng camera;
 
@@ -70,10 +117,10 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     public static RestAdapter restAdapter;
 
-    private Double DistanceStationFirst = 0.00;
-    private Double DistanceStationSecond = 0.00;
-    private Double DistanceStationFirst_repeatedly = 0.00;
-    private Double DistanceStationSecond_repeatedly = 0.00;
+    private static Double DistanceStationFirst = 0.00;
+    private static Double DistanceStationSecond = 0.00;
+    private static Double DistanceStationFirst_repeatedly = 0.00;
+    private static Double DistanceStationSecond_repeatedly = 0.00;
 
     private Double DistanceStationFirst_dialog = 0.00;
     private Double DistanceStationSecond_dialog = 0.00;
@@ -83,32 +130,34 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     public static String[][] Station;
     public static int Station_number;
-    private String[][] TempDataEV;
+    private static String[][] TempDataEV;
     public static String[][] DataEV;
 
     public static int Station_number_dialog;
     private String[][] TempDataEV_dialog;
     public static String[][] DataEV_dialog;
 
-    private Double TempDistanceFirst = 999999.00;
-    private Double TempDistanceSecond = 999999.00;
-    private Double TempDistanceFirst_repeatedly = 999999.00;
-    private Double TempDistanceSecond_repeatedly = 999999.00;
+    private static Double TempDistanceFirst = 999999.00;
+    private static Double TempDistanceSecond = 999999.00;
+    private static Double TempDistanceFirst_repeatedly = 999999.00;
+    private static Double TempDistanceSecond_repeatedly = 999999.00;
 
     private Double TempDistanceFirst_dialog = 999999.00;
     private Double TempDistanceSecond_dialog = 999999.00;
     private Double TempDistanceFirst_repeatedly_dialog = 999999.00;
     private Double TempDistanceSecond_repeatedly_dialog = 999999.00;
 
-    private int TempFirst = 0;
+    private static int TempFirst = 0;
 
     public static int first = 0;
     public static int second = 0;
 
-    private int TempSecond = 0;
+    private static int TempSecond = 0;
 
-    private Boolean Have_First = false;
-    private Boolean Have_Second = false;
+    private static Boolean Have_First = false;
+    public static Boolean Have_First_repeatedly = false;
+    private static Boolean Have_Second = false;
+    public static Boolean Have_Second_repeatedly = false;
 
     private int TempFirst_dialog = 0;
 
@@ -118,9 +167,11 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     private int TempSecond_dialog = 0;
 
     private Boolean Have_First_dialog = false;
+    public static Boolean Have_First_dialog_repeatedly = false;
     private Boolean Have_Second_dialog = false;
+    public static Boolean Have_Second_dialog_repeatedly = false;
 
-    private Boolean Get_station_success = false;
+    private static Boolean Get_station_success = false;
     public static Boolean Check_Swap_Function = false;
 
     public static Double Cumulative_first = 0.0;
@@ -139,6 +190,23 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     public static Boolean Check_time_dialog = false;
     public static Boolean Check_State_dialog = false;
 
+    private TinyDB tinydb;
+
+    public static Boolean Onstart = false;
+
+    public static WaveSwipeRefreshLayout mWaveSwipeRefreshLayout;
+
+    private RelativeLayout re;
+    private LobsterPicker lobsterPicker;
+    private LobsterShadeSlider shadeSlider;
+    private LobsterOpacitySlider opacitySlider;
+
+    private LinearLayout LY;
+
+    private MaterialSpinner spinnerBG;
+    private int BG_select = 0;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -147,6 +215,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
+        tinydb = new TinyDB(getApplicationContext());
 
         restAdapter = new RestAdapter.Builder()
                 .setEndpoint(API).build();
@@ -166,6 +235,26 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         textView2 = (TextView) findViewById(R.id.textView2);
         textView3 = (TextView) findViewById(R.id.textView3);
 
+        LY = (LinearLayout) findViewById(R.id.LinearLayout1);
+
+        LY.setBackgroundColor(tinydb.getInt("ColorBG", 16777215));
+
+        findViewById(R.id.Logout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Confirm_Logout();
+            }
+        });
+
+        findViewById(R.id.change_color).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Change_color();
+            }
+        });
+
 
         //textView.setTextSize();
 
@@ -177,8 +266,85 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 .addOnConnectionFailedListener(this)
                 .build();
 
+       // mRegistrationProgressBar = (ProgressBar) findViewById(R.id.registrationProgressBar);
+        mRegistrationBroadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                //mRegistrationProgressBar.setVisibility(ProgressBar.GONE);
+                SharedPreferences sharedPreferences =
+                        PreferenceManager.getDefaultSharedPreferences(context);
+                boolean sentToken = sharedPreferences.getBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, false);
+                if (sentToken) {
+
+                   // Toast.makeText(getApplicationContext(), "GCM success",
+                     //         Toast.LENGTH_LONG).show();
+                }
+                else
+                {
+
+                    //Toast.makeText(getApplicationContext(), "GCM failure",
+                      //       Toast.LENGTH_LONG).show();
+                }
+            }
+        };
+
+
+
+
+
+        if (checkPlayServices()) {
+            // Start IntentService to register this application with GCM.
+            Intent intent = new Intent(this, RegistrationIntentService.class);
+            startService(intent);
+        }
+        initViewrefresh();
+
         Get_ST();
         startTimerThread();
+    }
+
+    private void initViewrefresh() {
+
+        int color = tinydb.getInt("ColorRF", -43231);
+        mWaveSwipeRefreshLayout = (WaveSwipeRefreshLayout) findViewById(R.id.main_swipe);
+        mWaveSwipeRefreshLayout.setColorSchemeColors(Color.WHITE, Color.WHITE);
+        mWaveSwipeRefreshLayout.setWaveColor(color);
+       // mWaveSwipeRefreshLayout.setWaveColor(0xFF000000 + new Random().nextInt(0xFFFFFF)); // Random assign
+
+        Log.e(TAG, "color : "+color);
+        mWaveSwipeRefreshLayout.setOnRefreshListener(new WaveSwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                // Do work to refresh the list here.
+                Log.e(TAG, "onRefresh");
+                //mWaveSwipeRefreshLayout.setRefreshing(false);
+                Get_EV();
+            }
+
+        });
+
+
+    }
+
+    /**
+     * Check the device to make sure it has the Google Play Services APK. If
+     * it doesn't, display a dialog that allows users to download the APK from
+     * the Google Play Store or enable it in the device's system settings.
+     */
+    private boolean checkPlayServices() {
+        GoogleApiAvailability apiAvailability = GoogleApiAvailability.getInstance();
+        int resultCode = apiAvailability.isGooglePlayServicesAvailable(this);
+        if (resultCode != ConnectionResult.SUCCESS) {
+            if (apiAvailability.isUserResolvableError(resultCode)) {
+                apiAvailability.getErrorDialog(this, resultCode, PLAY_SERVICES_RESOLUTION_REQUEST)
+                        .show();
+            } else {
+                Log.e(TAG, "This device is not supported.");
+                finish();
+            }
+            return false;
+        }
+        return true;
     }
 
     @Override
@@ -186,6 +352,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         super.onStart();
 
         // Connect to Google API Client
+        Onstart = true;
         googleApiClient.connect();
     }
 
@@ -194,8 +361,23 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         super.onStop();
         if (googleApiClient != null && googleApiClient.isConnected()) {
             // Disconnect Google API Client if available and connected
+            Onstart = false;
             googleApiClient.disconnect();
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+                new IntentFilter(QuickstartPreferences.REGISTRATION_COMPLETE));
+    }
+
+
+    @Override
+    protected void onPause() {
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(mRegistrationBroadcastReceiver);
+        super.onPause();
     }
 
     @Override
@@ -208,6 +390,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
 
+                Onstart = false;
                 finish();
             }
         });
@@ -241,7 +424,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             // Call Location Services
             LocationRequest locationRequest = new LocationRequest()
                     .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
-                    .setInterval(3000);
+                    .setInterval(5000);
             LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, this);
         } else {
             // Do something when Location Provider not available
@@ -263,6 +446,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     @Override
     public boolean onMarkerClick(final Marker marker) {
 
+        Check_time_dialog = false;
         for(int i = 0 ; i < Station.length ; i++)
         {
             if(Station[i][1].equals(marker.getTitle()))
@@ -289,32 +473,36 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     @Override
     public void onLocationChanged(Location location) {
 
-        Main_Map.clear();
+        //location.setLatitude(16.74045);
+        //location.setLongitude(100.199215);
+
+
         camera = new LatLng(location.getLatitude(),location.getLongitude());
         Main_Map.animateCamera(CameraUpdateFactory.newLatLngZoom(camera, 15));
 
-        EV_Marker = Main_Map.addMarker(new MarkerOptions()
+        if(Your_Marker == null)
+        {
+            Your_Marker = Main_Map.addMarker(new MarkerOptions()
                     .position(new LatLng(location.getLatitude(),location.getLongitude()))
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.point))
                     .title("Your Here"));
 
+        }
+        else
+        {
+            Your_Marker.remove();
+            Your_Marker = Main_Map.addMarker(new MarkerOptions()
+                    .position(new LatLng(location.getLatitude(),location.getLongitude()))
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.point))
+                    .title("Your Here"));
 
+        }
 
         if(Get_station_success)
         {
-            for(int i = 0; i < Station.length ; i++)
-            {
 
-            ST_Marker[i] = Main_Map.addMarker(new MarkerOptions()
-                    .position(new LatLng(Double.parseDouble(Station[i][2]), Double.parseDouble(Station[i][3])))
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.point))
-                    .title("" + Station[i][1]));
-
-            }
             Cal_near(location);
-            Get_EV();
-
-
+            //Get_EV();
         }
 
 
@@ -372,6 +560,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 ST_Marker = new Marker[Station.length];
                 Get_station_success = true;
 
+                Get_EV();
 
             }
 
@@ -387,43 +576,66 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     }
 
 
-    public void Get_EV()
+    public static void Get_EV()
     {
 
-        final Get_EV Get_EV_API = restAdapter.create(Get_EV.class);
+        if(Get_station_success)
+        {
 
-        Get_EV_API.Get_EV_API("Get_EV", new Callback<Get_EV_Model>() {
-            @Override
-            public void success(Get_EV_Model EV_Model, Response response) {
-                String[][] dataEV = EV_Model.dataEV();
-                // Log.e("LOG TAG", "Get_EV success " + dataEV.length);
+            final Get_EV Get_EV_API = restAdapter.create(Get_EV.class);
 
-                Draw(dataEV);
+            Get_EV_API.Get_EV_API("Get_EV", new Callback<Get_EV_Model>() {
+                @Override
+                public void success(Get_EV_Model EV_Model, Response response) {
+                    String[][] dataEV = EV_Model.dataEV();
+                    // Log.e("LOG TAG", "Get_EV success " + dataEV.length);
 
-                // if (!Check_Swap_Function) {
+                    Draw(dataEV);
 
-                //Log.e("LOG TAG", "TempFirst : " + TempFirst + " TempSecond : " + TempSecond);
-                Cumulative.Get_Cumulative(Have_First, Have_Second, TempDataEV, TempFirst, TempSecond);
-                //    Show();
-                // }
+                    // if (!Check_Swap_Function) {
 
-            }
+                    //Log.e("LOG TAG", "TempFirst : " + TempFirst + " TempSecond : " + TempSecond);
+                    Cumulative.Get_Cumulative(Have_First, Have_Second, TempDataEV, TempFirst, TempSecond);
+                    //    Show();
+                    // }
 
-            @Override
-            public void failure(RetrofitError error) {
+                    mWaveSwipeRefreshLayout.setRefreshing(false);
 
-                // Toast.makeText(getApplicationContext(), "GET NOT Success.2",
-                //          Toast.LENGTH_LONG).show();
-                Log.e("LOG TAG", "Get_EV failure");
+                }
 
-                Get_EV();
+                @Override
+                public void failure(RetrofitError error) {
 
-            }
-        });
+                    // Toast.makeText(getApplicationContext(), "GET NOT Success.2",
+                    //          Toast.LENGTH_LONG).show();
+                    Log.e("LOG TAG", "Get_EV failure");
+
+                    Get_EV();
+
+                }
+            });
+            
+        }
+
+
     }
 
-    public void Draw(String[][] dataEV)
+
+
+    public static void Draw(String[][] dataEV)
     {
+        Main_Map.clear();
+
+        for(int i = 0; i < Station.length ; i++)
+        {
+
+            ST_Marker[i] = Main_Map.addMarker(new MarkerOptions()
+                    .position(new LatLng(Double.parseDouble(Station[i][2]), Double.parseDouble(Station[i][3])))
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.point))
+                    .title("" + Station[i][1]));
+
+        }
+
         TempDataEV = dataEV;
         DataEV = dataEV;
         TempDistanceFirst = 999999.00;
@@ -433,11 +645,16 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         TempFirst = -1;
         TempSecond = -1;
         Have_First = false;
+        Have_First_repeatedly = false;
         Have_Second = false;
+        Have_Second_repeatedly = false;
 
                 for (int i = 0; i < TempDataEV.length; i++) {
 
-                    if (TempDataEV[i][0] != null && !TempDataEV[i][0].isEmpty() && TempDataEV[i][8].equals("RUN")) {
+                    if (TempDataEV[i][0] != null && !TempDataEV[i][0].isEmpty() && TempDataEV[i][8].equals("RUN"))
+                    {
+
+                       // Log.e("LOG TAG", "i : "+i);
 
                         if(Station[Station_number][9].equals(TempDataEV[i][7]))
                         {
@@ -452,9 +669,11 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 first = i;
 
                                 Have_First = true;
+                                Have_First_repeatedly = false;
+
 
                             }
-                            else if(Boolean.parseBoolean(TempDataEV[i][8]) == true && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly)
+                            else if(Boolean.parseBoolean(Station[Station_number][8]) == true && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly)
                             {
 
                                 TempDistanceFirst_repeatedly = TempDataF_repeatedly;
@@ -462,9 +681,12 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 first = i;
 
                                 Have_First = true;
+                                Have_First_repeatedly = true;
 
-
+                                //Log.e("LOG TAG", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY : Have_First : "+Have_First);
                             }
+
+                            //Log.e("LOG TAG", "repeatedly : "+Boolean.parseBoolean(Station[Station_number][8])+" Station[i][8] => "+Station[Station_number][8]+" Station_number : "+Station_number);
 
                             EV_Marker = Main_Map.addMarker(new MarkerOptions()
                                     .position(new LatLng(Double.parseDouble(TempDataEV[i][1]), Double.parseDouble(TempDataEV[i][2])))
@@ -485,8 +707,9 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 second = i ;
 
                                 Have_Second = true;
+                                Have_Second_repeatedly = false;
                             }
-                            else if(Boolean.parseBoolean(TempDataEV[i][8]) == true && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly)
+                            else if(Boolean.parseBoolean(Station[Station_number][8]) == true && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly)
                             {
 
                                 TempDistanceSecond_repeatedly = TempDataS_repeatedly;
@@ -494,6 +717,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 second = i ;
 
                                 Have_Second = true;
+                                Have_Second_repeatedly = true;
 
 
                             }
@@ -510,6 +734,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                 }
 
+
+        //Log.e("LOG TAG", "Have_First : "+Have_First+" Have_Second : "+Have_Second);
 
 
 
@@ -533,6 +759,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                     handler.post(new Runnable(){
                         public void run() {
 
+                            //Log.e("LOG TAG", "First_time : "+First_time+" GGGGGGGGGGGGGGGGGGGGGG");
+
                             final int hourF = (First_time / 3600000);
                             final int minuteF = ((First_time % 3600000) / 60000 );
                             final int secondsF = (((First_time % 3600000) % 60000 ) / 1000);
@@ -543,7 +771,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                             if (Have_First == true && Have_Second == true)
                             {
-                                // Log.e("LOG TAG", "secondsS : "+secondsS+" secondsF : "+secondsF);
+                                 //Log.e("LOG TAG", "2Have_First : "+Have_First+" 2Have_Second : "+Have_Second);
 
                                 if(secondsF >= 0 )
                                 {
@@ -577,6 +805,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 }
                                 else
                                 {
+                                    //Log.e("LOG TAG", "First_time"+First_time+"  secondsF : "+secondsF );
                                     textView.setText("--:-- นาที");
 
                                 }
@@ -613,6 +842,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 }
                                 else
                                 {
+                                    //Log.e("LOG TAG", "second 1111111111111111111111111111111111");
                                     textView2.setText("--:-- นาที");
 
                                 }
@@ -622,6 +852,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             else if (Have_First == true && Have_Second == false)
                             {
 
+                                textView2.setText("--:-- นาที");
+
                                 if(secondsF >= 0 )
                                 {
                                     if(minuteF < 10 && secondsF < 10 )
@@ -654,6 +886,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 }
                                 else
                                 {
+                                    //Log.e("LOG TAG", "first 222222222222222222222222222222");
                                     textView.setText("--:-- นาที");
 
                                 }
@@ -662,7 +895,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             }
                             else if (Have_First == false && Have_Second == true)
                             {
-
+                                textView.setText("--:-- นาที");
                                 if(secondsS >= 0 )
                                 {
                                     if(minuteS < 10 && secondsS < 10 )
@@ -695,6 +928,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 }
                                 else
                                 {
+                                    //Log.e("LOG TAG", "second 222222222222222222222222222222");
                                     textView2.setText("--:-- นาที");
 
                                 }
@@ -702,6 +936,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             }
                             else
                             {
+                                //Log.e("LOG TAG", "first 3333333333333333333333333333333");
+                                //Log.e("LOG TAG", "second 3333333333333333333333333333333");
                                 textView.setText("--:-- นาที");
                                 textView2.setText("--:-- นาที");
                             }
@@ -727,21 +963,31 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 .positiveText("Exit")
                 .callback(new MaterialDialog.ButtonCallback() {
                     @Override
-                    public void onPositive(MaterialDialog dialog)
-                    {
+                    public void onPositive(MaterialDialog dialog) {
+                       // Log.e("LOG TAG", "onPositive YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
+
                         Check_time_dialog = false;
-
+                        dialog.dismiss();
 
                     }
 
+                })
+                .dismissListener(new DialogInterface.OnDismissListener() {
                     @Override
-                    public void onNegative(MaterialDialog dialog) {
+                    public void onDismiss(DialogInterface dialog) {
 
+                        Check_time_dialog = false;
+                        //Log.e("LOG TAG", "onDismiss YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
 
                     }
-                }).build();
+                })
+                .build();
+
+
 
         dialog.show();
+
+
 
 
         TextView Title= (TextView) dialog.getCustomView().findViewById(R.id.Station);
@@ -763,11 +1009,11 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
         Draw_dialog(TempDataEV);
 
-        Log.e("LOG TAG", "Get_Cumulative_dialog : ");
+        ///Log.e("LOG TAG", "Get_Cumulative_dialog : ");
         Cumulative.Get_Cumulative_dialog(Have_First_dialog, Have_Second_dialog, TempDataEV_dialog, TempFirst_dialog, TempSecond_dialog);
 
         Check_time_dialog = true;
-        Log.e("LOG TAG", "startTimerThread_dialog : ");
+        //Log.e("LOG TAG", "startTimerThread_dialog : ");
         startTimerThread_dialog(dialog);
 
     }
@@ -784,11 +1030,13 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         TempFirst_dialog = -1;
         TempSecond_dialog = -1;
         Have_First_dialog = false;
+        Have_First_dialog_repeatedly = false;
         Have_Second_dialog = false;
+        Have_Second_dialog_repeatedly = false;
 
 
         for (int i = 0; i < TempDataEV_dialog.length; i++) {
-            Log.e("LOG TAG", "Draw_dialog : "+i);
+            //Log.e("LOG TAG", "Draw_dialog : "+i);
             if (TempDataEV_dialog[i][0] != null && !TempDataEV_dialog[i][0].isEmpty() && TempDataEV_dialog[i][8].equals("RUN")) {
 
                 if(Station[Station_number_dialog][9].equals(TempDataEV_dialog[i][7]))
@@ -804,9 +1052,10 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         first_dialog = i;
 
                         Have_First_dialog = true;
-                        Log.e("LOG TAG", "Have_First_dialog : "+i);
+                        Have_First_dialog_repeatedly = false;
+                        //Log.e("LOG TAG", "Have_First_dialog : "+i);
                     }
-                    else if(Boolean.parseBoolean(TempDataEV_dialog[i][8]) == true && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly_dialog)
+                    else if(Boolean.parseBoolean(Station[Station_number_dialog][8]) == true && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly_dialog)
                     {
 
                         TempDistanceFirst_repeatedly_dialog = TempDataF_repeatedly;
@@ -814,7 +1063,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         first_dialog = i;
 
                         Have_First_dialog = true;
-                        Log.e("LOG TAG", "Have_First_dialog : "+i);
+                        Have_First_dialog_repeatedly = true;
+                        //Log.e("LOG TAG", "Have_First_dialog : "+i);
 
                     }
 
@@ -834,9 +1084,10 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         second_dialog = i ;
 
                         Have_Second_dialog = true;
-                        Log.e("LOG TAG", "Have_Second_dialog : "+i);
+                        Have_Second_dialog_repeatedly = false;
+                        //Log.e("LOG TAG", "Have_Second_dialog : "+i);
                     }
-                    else if(Boolean.parseBoolean(TempDataEV_dialog[i][8]) == true && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly_dialog)
+                    else if(Boolean.parseBoolean(Station[Station_number_dialog][8]) == true && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly_dialog)
                     {
 
                         TempDistanceSecond_repeatedly_dialog = TempDataS_repeatedly;
@@ -844,7 +1095,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         second_dialog = i ;
 
                         Have_Second_dialog = true;
-                        Log.e("LOG TAG", "Have_Second_dialog : "+i);
+                        Have_Second_dialog_repeatedly = true;
+                       // Log.e("LOG TAG", "Have_Second_dialog : "+i);
 
                     }
 
@@ -1088,6 +1340,156 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             }
         };
         new Thread(runnable).start();
+
+
     }
+
+
+
+    public void Change_color()
+    {
+        MaterialDialog dialog = new MaterialDialog.Builder(this)
+                .customView(R.layout.dialog_color, true)
+                .positiveText("Exit")
+                .callback(new MaterialDialog.ButtonCallback() {
+                    @Override
+                    public void onPositive(MaterialDialog dialog) {
+
+                        dialog.dismiss();
+
+                    }
+
+                })
+                .dismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+
+
+
+                    }
+                })
+                .build();
+
+
+
+        dialog.show();
+
+        spinnerBG = (MaterialSpinner) dialog.getCustomView().findViewById(R.id.spinner);
+        lobsterPicker = (LobsterPicker) dialog.getCustomView().findViewById(R.id.lobsterpicker);
+        shadeSlider = (LobsterShadeSlider) dialog.getCustomView().findViewById(R.id.shadeslider);
+        opacitySlider = (LobsterOpacitySlider) dialog.getCustomView().findViewById(R.id.opacityslider);
+
+        re = (RelativeLayout) dialog.getCustomView().findViewById(R.id.RelativeLayout5);
+
+        lobsterPicker.addDecorator(shadeSlider);
+        lobsterPicker.addDecorator(opacitySlider);
+
+
+        lobsterPicker.addOnColorListener(new OnColorListener() {
+            @Override
+            public void onColorChanged(@ColorInt int color) {
+
+                if(BG_select == 1)
+                {
+                    tinydb.putInt("ColorBG", lobsterPicker.getColor());
+                    LY.setBackgroundColor(lobsterPicker.getColor());
+                }
+                else if (BG_select == 2)
+                {
+                    Log.e(TAG, "color2 : "+color);
+                    tinydb.putInt("ColorRF", lobsterPicker.getColor());
+                    mWaveSwipeRefreshLayout.setWaveColor(lobsterPicker.getColor());
+                }
+                re.setBackgroundColor(lobsterPicker.getColor());
+
+
+            }
+
+            @Override
+            public void onColorSelected(@ColorInt int color) {
+
+
+            }
+        });
+
+        spinnerBG.setItems("Select", "Background Color", "Refresh");
+        spinnerBG.setBackgroundColor(Color.parseColor("#CDDC39"));
+
+        spinnerBG.setOnItemSelectedListener(new MaterialSpinner.OnItemSelectedListener<String>() {
+
+            @Override
+            public void onItemSelected(MaterialSpinner view, int position, long id, String item) {
+                BG_select = position;
+
+            }
+        });
+
+
+    }
+    public void Confirm_Logout()
+    {
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+        dialog.setTitle("Logout");
+        dialog.setIcon(R.mipmap.ic_launcher);
+        dialog.setCancelable(true);
+        dialog.setMessage("Do you want to logout?");
+        dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+
+                Logout();
+            }
+        });
+
+        dialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+
+        dialog.show();
+    }
+
+
+    public void Logout()
+    {
+        String ApiKey = tinydb.getString("ApiKey");
+
+        restAdapter = new RestAdapter.Builder()
+                .setEndpoint(API).build();
+
+        PutTOKEN_API Puttoken = restAdapter.create(PutTOKEN_API.class);
+        Puttoken.PutTOKEN(ApiKey, "empty", new Callback<PutTOKEN_Model>() {
+            @Override
+            public void success(PutTOKEN_Model PutTOKEN, Response response) {
+
+
+                Log.e("LOG TAG", "Put Token error : " + PutTOKEN.getError());
+
+                tinydb.clear();
+
+                SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                sharedPreferences.edit().putBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, false).apply();
+
+                Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(i);
+                finish();
+
+            }
+
+            @Override
+            public void failure(RetrofitError error) {
+
+                Log.e("LOG TAG", "Logout failure");
+
+                Logout();
+
+            }
+        });
+
+
+
+
+    }
+
 
 }

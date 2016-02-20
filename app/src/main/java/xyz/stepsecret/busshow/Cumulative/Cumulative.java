@@ -30,8 +30,8 @@ public class Cumulative {
                 MainActivity.Cumulative_first = EV_Model.TempcumuF();
                 MainActivity.Cumulative_Second = EV_Model.TempcumuS();
                 Calculate_Time.Get_TimeFS();
-               // Log.e("LOG TAG", "CumulativeRY success TempcumuR " + EV_Model.TempcumuF());
-               // Log.e("LOG TAG", "CumulativeRY success TempcumuY " + EV_Model.TempcumuS());
+                Log.e("LOG TAG", "CumulativeRY success TempcumuR " + EV_Model.TempcumuF());
+                Log.e("LOG TAG", "CumulativeRY success TempcumuY " + EV_Model.TempcumuS());
             }
 
             @Override
@@ -56,7 +56,7 @@ public class Cumulative {
 
                 MainActivity.Cumulative_first = EV_Model.TempcumuF();
                 Calculate_Time.Get_TimeF();
-                // Log.e("LOG TAG", "CumulativeRY success TempcumuR " + EV_Model.TempcumuF());
+                 Log.e("LOG TAG", "CumulativeRY success TempcumuR " + EV_Model.TempcumuF());
 
             }
 
@@ -82,7 +82,7 @@ public class Cumulative {
 
                 MainActivity.Cumulative_Second = EV_Model.TempcumuS();
                 Calculate_Time.Get_TimeS();
-                //Log.e("LOG TAG", "CumulativeRY success TempcumuY " + EV_Model.TempcumuS());
+                Log.e("LOG TAG", "CumulativeRY success TempcumuY " + EV_Model.TempcumuS());
 
             }
 
@@ -110,8 +110,8 @@ public class Cumulative {
                 MainActivity.Cumulative_first_dialog = EV_Model.TempcumuF();
                 MainActivity.Cumulative_Second_dialog = EV_Model.TempcumuS();
                 Calculate_Time.Get_TimeFS_dialog();
-               // Log.e("LOG TAG", "CumulativeRY success TempcumuR " + EV_Model.TempcumuF());
-               // Log.e("LOG TAG", "CumulativeRY success TempcumuY " + EV_Model.TempcumuS());
+                Log.e("LOG TAG", "CumulativeRY success TempcumuR " + EV_Model.TempcumuF());
+                Log.e("LOG TAG", "CumulativeRY success TempcumuY " + EV_Model.TempcumuS());
             }
 
             @Override

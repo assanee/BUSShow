@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+            <com.larswerkman.lobsterpicker.LobsterPicker
+                android:id="@+id/lobsterpicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.larswerkman.lobsterpicker.sliders.LobsterShadeSlider
+                android:id="@+id/shadeslider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:color_history_enabled="true"
+                android:layout_centerHorizontal="true" />
+
+            <com.larswerkman.lobsterpicker.sliders.LobsterOpacitySlider
+                android:id="@+id/opacityslider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:color_history_enabled="true"
+                android:layout_below="@+id/shadeslider"
+                android:layout_alignRight="@+id/shadeslider"
+                android:layout_alignEnd="@+id/shadeslider"
+                android:layout_alignLeft="@+id/shadeslider"
+                android:layout_alignStart="@+id/shadeslider" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view5"
+                android:layout_gravity="center"
+                android:layout_width="121dp"
+                android:layout_height="43dp"
+                card_view:cardCornerRadius="2dp"
+                card_view:contentPadding="2dp"
+                android:layout_weight="0.26"
+                android:layout_below="@+id/opacityslider"
+                android:layout_centerHorizontal="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/RelativeLayout5"
+                    >
+
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

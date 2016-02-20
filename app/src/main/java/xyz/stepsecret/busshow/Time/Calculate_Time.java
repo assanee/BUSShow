@@ -11,13 +11,50 @@ public class Calculate_Time {
 
     public static void Get_TimeFS()
     {
-        MainActivity.First_time = 0;
-        MainActivity.Second_time = 0;
+        if(MainActivity.Have_First_repeatedly != true && MainActivity.Have_Second_repeatedly != true)
+        {
+            MainActivity.First_time = 0;
+            MainActivity.Second_time = 0;
 
-        MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][4]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
-                /MainActivity.Cumulative_first)*1000;
-        MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][5]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
-                /MainActivity.Cumulative_Second)*1000;
+            MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][4]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
+                    /MainActivity.Cumulative_first)*1000;
+            MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][5]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
+                    /MainActivity.Cumulative_Second)*1000;
+        }
+        else if(MainActivity.Have_First_repeatedly != true && MainActivity.Have_Second_repeatedly == true)
+        {
+            MainActivity.First_time = 0;
+            MainActivity.Second_time = 0;
+
+            MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][4]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
+                    /MainActivity.Cumulative_first)*1000;
+            MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][7]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
+                    /MainActivity.Cumulative_Second)*1000;
+
+        }
+        else if(MainActivity.Have_First_repeatedly == true && MainActivity.Have_Second_repeatedly != true)
+        {
+            MainActivity.First_time = 0;
+            MainActivity.Second_time = 0;
+
+            MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][6]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
+                    /MainActivity.Cumulative_first)*1000;
+            MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][5]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
+                    /MainActivity.Cumulative_Second)*1000;
+
+        }
+        else
+        {
+            MainActivity.First_time = 0;
+            MainActivity.Second_time = 0;
+
+            MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][6]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
+                    /MainActivity.Cumulative_first)*1000;
+            MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][7]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
+                    /MainActivity.Cumulative_Second)*1000;
+
+        }
+
 
       //  Log.e("LOG TAG", "Fist_time : " + MainActivity.First_time+" Second_time : " + MainActivity.Second_time);
 
@@ -25,64 +62,152 @@ public class Calculate_Time {
 
     public static void Get_TimeF()
     {
-        MainActivity.First_time = 0;
 
-        MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][4]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
-                /MainActivity.Cumulative_first)*1000;
+        if(MainActivity.Have_First_repeatedly != true)
+        {
+            MainActivity.First_time = 0;
 
-      //  Log.e("LOG TAG", "Fist_time : " + MainActivity.First_time);
+            MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][4]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
+                    /MainActivity.Cumulative_first)*1000;
+
+        }
+        else
+        {
+            MainActivity.First_time = 0;
+
+            MainActivity.First_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][6]) - Double.parseDouble(MainActivity.DataEV[MainActivity.first][5]))
+                    /MainActivity.Cumulative_first)*1000;
+
+        }
+
+
 
     }
 
     public static void Get_TimeS()
     {
 
-        MainActivity.Second_time = 0;
+        if(MainActivity.Have_Second_repeatedly != true)
+        {
+            MainActivity.Second_time = 0;
 
-        MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][5]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
-                /MainActivity.Cumulative_Second)*1000;
+            MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][5]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
+                    /MainActivity.Cumulative_Second)*1000;
 
-      //  Log.e("LOG TAG", " Second_time : "+MainActivity.Second_time);
+        }
+        else
+        {
+            MainActivity.Second_time = 0;
+
+            MainActivity.Second_time = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number][7]) - Double.parseDouble(MainActivity.DataEV[MainActivity.second][5]))
+                    /MainActivity.Cumulative_Second)*1000;
+
+        }
+
+
+
 
     }
 
     public static void Get_TimeFS_dialog()
     {
-        MainActivity.First_time_dialog = 0;
-        MainActivity.Second_time_dialog = 0;
+        if(MainActivity.Have_First_dialog_repeatedly != true && MainActivity.Have_Second_dialog_repeatedly != true)
+        {
+            MainActivity.First_time_dialog = 0;
+            MainActivity.Second_time_dialog = 0;
 
-        MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][4]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
-                /MainActivity.Cumulative_first_dialog)*1000;
-        MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][5]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
-                /MainActivity.Cumulative_Second_dialog)*1000;
+            MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][4]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
+                    /MainActivity.Cumulative_first_dialog)*1000;
+            MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][5]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
+                    /MainActivity.Cumulative_Second_dialog)*1000;
+        }
+        else if(MainActivity.Have_First_dialog_repeatedly != true && MainActivity.Have_Second_dialog_repeatedly == true)
+        {
+            MainActivity.First_time_dialog = 0;
+            MainActivity.Second_time_dialog = 0;
 
-        Log.e("LOG TAG", "Fist_time_dialog : " + MainActivity.First_time_dialog+" Second_time_dialog : " + MainActivity.Second_time_dialog);
+            MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][4]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
+                    /MainActivity.Cumulative_first_dialog)*1000;
+            MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][7]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
+                    /MainActivity.Cumulative_Second_dialog)*1000;
+
+        }
+        else if(MainActivity.Have_First_dialog_repeatedly == true && MainActivity.Have_Second_dialog_repeatedly != true)
+        {
+            MainActivity.First_time_dialog = 0;
+            MainActivity.Second_time_dialog = 0;
+
+            MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][6]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
+                    /MainActivity.Cumulative_first_dialog)*1000;
+            MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][5]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
+                    /MainActivity.Cumulative_Second_dialog)*1000;
+
+        }
+        else
+        {
+            MainActivity.First_time_dialog = 0;
+            MainActivity.Second_time_dialog = 0;
+
+            MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][6]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
+                    /MainActivity.Cumulative_first_dialog)*1000;
+            MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][7]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
+                    /MainActivity.Cumulative_Second_dialog)*1000;
+
+        }
+
+
+        //  Log.e("LOG TAG", "Fist_time : " + MainActivity.First_time_dialog+" Second_time_dialog : " + MainActivity.Second_time_dialog);
 
     }
 
     public static void Get_TimeF_dialog()
     {
-        MainActivity.First_time_dialog = 0;
 
-        MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][4]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
-                /MainActivity.Cumulative_first_dialog)*1000;
+        if(MainActivity.Have_First_dialog_repeatedly != true)
+        {
+            MainActivity.First_time_dialog = 0;
 
-        Log.e("LOG TAG", "Fist_time_dialog : " + MainActivity.First_time_dialog);
+            MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][4]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
+                    /MainActivity.Cumulative_first_dialog)*1000;
+
+        }
+        else
+        {
+            MainActivity.First_time_dialog = 0;
+
+            MainActivity.First_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][6]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.first_dialog][5]))
+                    /MainActivity.Cumulative_first_dialog)*1000;
+
+        }
+
+
+        //  Log.e("LOG TAG", "Fist_time : " + MainActivity.First_time_dialog);
 
     }
 
     public static void Get_TimeS_dialog()
     {
 
-        MainActivity.Second_time_dialog = 0;
+        if(MainActivity.Have_Second_dialog_repeatedly != true)
+        {
+            MainActivity.Second_time_dialog = 0;
 
-        MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][5]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
-                /MainActivity.Cumulative_Second_dialog)*1000;
+            MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][5]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
+                    /MainActivity.Cumulative_Second_dialog)*1000;
 
-        Log.e("LOG TAG", " D1 : "+Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][5]));
-        Log.e("LOG TAG", " D2 : "+Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]));
-        Log.e("LOG TAG", " Cumu : "+MainActivity.Cumulative_Second_dialog);
-        Log.e("LOG TAG", " Second_time_dialog : "+MainActivity.Second_time_dialog);
+        }
+        else
+        {
+            MainActivity.Second_time_dialog = 0;
+
+            MainActivity.Second_time_dialog = (int)((Double.parseDouble(MainActivity.Station[MainActivity.Station_number_dialog][7]) - Double.parseDouble(MainActivity.DataEV_dialog[MainActivity.second_dialog][5]))
+                    /MainActivity.Cumulative_Second_dialog)*1000;
+
+        }
+
 
     }
+
+
+
 }

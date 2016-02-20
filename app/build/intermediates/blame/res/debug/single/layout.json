@@ -1,99 +1,115 @@
 [
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_listitem_multichoice.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_dialog_list.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_actionbuttons.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customview.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\dialog_customview.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ms__list_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.jaredrummler\\material-spinner\\1.0.4\\res\\layout\\ms__list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_list_item.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_list.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.4\\res\\layout\\md_stub_titleframe_lesspadding.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\content_login.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_titleframe.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_dialog_progress.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_signup.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\content_signup.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_listitem.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\test.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_progress_indeterminate_horizontal.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_progress_indeterminate.xml",
@@ -104,216 +120,168 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_list_item.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_listitem_singlechoice.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_color.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\dialog_color.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_basic.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_input.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_progress_indeterminate_horizontal.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.4\\res\\layout\\md_stub_progress_indeterminate_horizontal.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_progress_indeterminate.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_listitem_multichoice.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_dialog_progress_indeterminate.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_listitem_singlechoice.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.4\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_list_item.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_progress_indeterminate.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_stub_progress_indeterminate.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "H:\\BUSShow\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_inputpref.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_inputpref.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_listitem.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_inputpref.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_stub_inputpref.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_dialog_input.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_progress.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_progress.xml"
     },
     {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_simplelist_item.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_simplelist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -328,347 +296,15 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_progress.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_stub_actionbuttons.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_actionbuttons.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customview.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\dialog_customview.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_custom.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_progress_indeterminate_horizontal.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_progress_indeterminate_horizontal.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_progress_indeterminate.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_listitem_multichoice.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_listitem_singlechoice.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_list_item.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_progress.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_stub_progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_inputpref.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_stub_inputpref.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_simplelist_item.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_simplelist_item.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customview.xml",
-        "source": "H:\\BUSShow\\app\\src\\main\\res\\layout\\dialog_customview.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_dialog_basic.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_simplelist_item.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_simplelist_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Mylove\\Downloads\\Back UP app 101215\\app\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_dialog_custom.xml"
-    },
-    {
-        "merged": "H:\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
-        "source": "H:\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.3.1\\res\\layout\\md_stub_titleframe.xml"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_progress.xml"
+    },
+    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
     }
 ]
