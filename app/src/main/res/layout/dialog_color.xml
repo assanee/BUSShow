@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    xmlns:app="http://schemas.android.com/tools"
+
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,14 +21,12 @@
                 android:id="@+id/shadeslider"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:color_history_enabled="true"
                 android:layout_centerHorizontal="true" />
 
             <com.larswerkman.lobsterpicker.sliders.LobsterOpacitySlider
                 android:id="@+id/opacityslider"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:color_history_enabled="true"
                 android:layout_below="@+id/shadeslider"
                 android:layout_alignRight="@+id/shadeslider"
                 android:layout_alignEnd="@+id/shadeslider"

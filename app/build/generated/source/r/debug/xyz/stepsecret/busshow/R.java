@@ -3570,10 +3570,11 @@ containing a value of this type.
         public static final int ms__menu_down=0x7f0200b5;
         public static final int ms__selector=0x7f0200b6;
         public static final int ms__shadow_background=0x7f0200b7;
-        public static final int notification_template_icon_bg=0x7f0200bb;
+        public static final int notification_template_icon_bg=0x7f0200bc;
         public static final int point=0x7f0200b8;
-        public static final int powered_by_google_dark=0x7f0200b9;
-        public static final int powered_by_google_light=0x7f0200ba;
+        public static final int point2=0x7f0200b9;
+        public static final int powered_by_google_dark=0x7f0200ba;
+        public static final int powered_by_google_light=0x7f0200bb;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f0e0093;

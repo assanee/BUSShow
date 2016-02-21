@@ -120,10 +120,6 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_disabled_light.png",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_disabled_light.png"
     },
@@ -132,24 +128,28 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_2_mono_dark.png"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_fab_star.png",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\drawable-hdpi\\ic_fab_star.png"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_fab_star.png",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\drawable-hdpi\\ic_fab_star.png"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ms__menu_down.png",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.jaredrummler\\material-spinner\\1.0.4\\res\\drawable-hdpi-v4\\ms__menu_down.png"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_play.png",
@@ -172,12 +172,12 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_light.png"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
@@ -288,12 +288,12 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_off_mono_dark.png"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_color_lens_white_48dp.png",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\drawable-hdpi\\ic_color_lens_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
