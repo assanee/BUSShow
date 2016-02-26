@@ -130,6 +130,7 @@ public class LoginActivity extends AppCompatActivity {
                     tinydb.putString("ApiKey", signIN_Model.getApiKey());
                     tinydb.putString("flow", "RED");
                     tinydb.putBoolean("AUTO", false);
+                    tinydb.putBoolean("showPush", false);
                     tinydb.putInt("ColorBG", 16777215);
                     tinydb.putInt("ColorRF", -43231);
 

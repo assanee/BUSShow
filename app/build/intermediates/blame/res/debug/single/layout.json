@@ -164,6 +164,10 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.afollestad\\material-dialogs\\0.7.6.0\\res\\layout\\md_dialog_progress_indeterminate.xml"
     },
     {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_push.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\dialog_push.xml"
+    },
+    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
     },

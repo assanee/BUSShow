@@ -72,7 +72,13 @@ public class MyGcmListenerService extends GcmListenerService {
          * In some cases it may be useful to show a notification indicating to the user
          * that a message was received.
          */
-        sendNotification(message);
+        Boolean showPush = MainActivity.tinydb.getBoolean("showPush",false);
+
+        if(showPush)
+        {
+            sendNotification(message);
+        }
+
         // [END_EXCLUDE]
     }
     // [END receive_message]

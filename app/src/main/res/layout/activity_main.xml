@@ -144,17 +144,21 @@
                 fab:fab_addButtonColorPressed="@color/white_pressed"
                 fab:fab_addButtonPlusIconColor="@color/half_black"
                 fab:fab_labelStyle="@style/menu_labels_style"
+                fab:fab_addButtonSize="mini"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true">
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 
                 <com.getbase.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/action_a"
+                    android:id="@+id/push"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     fab:fab_colorNormal="@color/holo_orange"
                     fab:fab_title="Push notification"
+                    fab:fab_size="mini"
                     fab:fab_icon="@drawable/ic_wb_cloudy_white_48dp"
                     fab:fab_colorPressed="@color/Color_57"/>
 
@@ -164,6 +168,7 @@
                     android:layout_height="wrap_content"
                     fab:fab_colorNormal="@color/holo_green"
                     fab:fab_title="Change color"
+                    fab:fab_size="mini"
                     fab:fab_icon="@drawable/ic_color_lens_white_48dp"
                     fab:fab_colorPressed="@color/Color_39"/>
 
@@ -173,8 +178,11 @@
                     android:layout_height="wrap_content"
                     fab:fab_colorNormal="@color/holo_red"
                     fab:fab_title="Logout"
+                    fab:fab_size="mini"
                     fab:fab_icon="@drawable/ic_highlight_off_white_48dp"
                     fab:fab_colorPressed="@color/Color_69"/>
+
+
 
             </com.getbase.floatingactionbutton.FloatingActionsMenu>
 

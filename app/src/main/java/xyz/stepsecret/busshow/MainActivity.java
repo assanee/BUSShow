@@ -28,6 +28,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -190,7 +191,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     public static Boolean Check_time_dialog = false;
     public static Boolean Check_State_dialog = false;
 
-    private TinyDB tinydb;
+    public static TinyDB tinydb;
 
     public static Boolean Onstart = false;
 
@@ -206,6 +207,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     private MaterialSpinner spinnerBG;
     private int BG_select = 0;
 
+    private Switch switchPush;
 
 
     @Override
@@ -254,6 +256,14 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 Change_color();
             }
         });
+
+        findViewById(R.id.push).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        Change_push();
+                    }
+                });
 
 
         //textView.setTextSize();
@@ -484,7 +494,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         {
             Your_Marker = Main_Map.addMarker(new MarkerOptions()
                     .position(new LatLng(location.getLatitude(),location.getLongitude()))
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.point))
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.your))
                     .title("Your Here"));
 
         }
@@ -493,7 +503,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             Your_Marker.remove();
             Your_Marker = Main_Map.addMarker(new MarkerOptions()
                     .position(new LatLng(location.getLatitude(),location.getLongitude()))
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.point))
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.your))
                     .title("Your Here"));
 
         }
@@ -1344,13 +1354,70 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     }
 
+    public void Change_push()
+    {
+        MaterialDialog dialog = new MaterialDialog.Builder(this)
+                .customView(R.layout.dialog_push, true)
+                .positiveText("OK")
+                .callback(new MaterialDialog.ButtonCallback() {
+                    @Override
+                    public void onPositive(MaterialDialog dialog) {
 
+                        dialog.dismiss();
+
+                    }
+
+                })
+                .dismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+
+
+
+                    }
+                })
+                .build();
+
+
+
+        dialog.show();
+
+        switchPush = (Switch) dialog.getCustomView().findViewById(R.id.switch1);
+        switchPush.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                if (switchPush.isChecked() == true) {
+
+                    tinydb.putBoolean("showPush",switchPush.isChecked());
+
+                    Toast.makeText(MainActivity.this,
+                            String.valueOf("Push notification is On"),
+                            Toast.LENGTH_SHORT).show();
+                } else {
+
+                    tinydb.putBoolean("showPush",switchPush.isChecked());
+                    Toast.makeText(MainActivity.this,
+                            String.valueOf("Push notification is Off"),
+                            Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
+
+
+        switchPush.setChecked(tinydb.getBoolean("showPush",false));
+
+
+
+
+
+    }
 
     public void Change_color()
     {
         MaterialDialog dialog = new MaterialDialog.Builder(this)
                 .customView(R.layout.dialog_color, true)
-                .positiveText("Exit")
+                .positiveText("OK")
                 .callback(new MaterialDialog.ButtonCallback() {
                     @Override
                     public void onPositive(MaterialDialog dialog) {
@@ -1426,6 +1493,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
 
     }
+
     public void Confirm_Logout()
     {
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
