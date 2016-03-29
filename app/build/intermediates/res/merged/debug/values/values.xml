@@ -564,6 +564,7 @@
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="colon">:</string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
@@ -609,6 +610,8 @@
     <string name="hint_Password">Password</string>
     <string name="hint_email">Email</string>
     <string name="hint_name">Name</string>
+    <string name="lastzero">:0</string>
+    <string name="minute"> นาที</string>
     <string name="mr_media_route_button_content_description">Cast</string>
     <string name="mr_media_route_chooser_searching">Searching for devices\u2026</string>
     <string name="mr_media_route_chooser_title">Connect to device</string>
@@ -623,12 +626,14 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
+    <string name="timeEmpty">--:-- นาที</string>
     <string name="title_activity_chat_room_discussion">ChatRoomDiscussionActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="token_error_message">An error occurred while either fetching the InstanceID token,
         sending the fetched token to the server or subscribing to the PubSub topic. Please try
         running the sample again.</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="zero">0</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

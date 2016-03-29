@@ -18,4 +18,9 @@
     <string name="err_msg_email">Enter valid email address</string>
     <string name="title_activity_chat_room_discussion">ChatRoomDiscussionActivity</string>
     <string name="action_logout">Logout</string>
+    <string name="minute"> นาที</string>
+    <string name="zero">0</string>
+    <string name="lastzero">:0</string>
+    <string name="colon">:</string>
+    <string name="timeEmpty">--:-- นาที</string>
 </resources>

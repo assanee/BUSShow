@@ -209,6 +209,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     private Switch switchPush;
 
+    private Boolean Check_time_main = true;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -258,13 +260,15 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         });
 
         findViewById(R.id.push).setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
+            @Override
+            public void onClick(View v) {
 
-                        Change_push();
-                    }
-                });
+                Change_push();
+            }
+        });
 
+
+        Check_time_main = true;
 
         //textView.setTextSize();
 
@@ -276,7 +280,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 .addOnConnectionFailedListener(this)
                 .build();
 
-       // mRegistrationProgressBar = (ProgressBar) findViewById(R.id.registrationProgressBar);
+        // mRegistrationProgressBar = (ProgressBar) findViewById(R.id.registrationProgressBar);
         mRegistrationBroadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -286,14 +290,14 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 boolean sentToken = sharedPreferences.getBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, false);
                 if (sentToken) {
 
-                   // Toast.makeText(getApplicationContext(), "GCM success",
-                     //         Toast.LENGTH_LONG).show();
+                    // Toast.makeText(getApplicationContext(), "GCM success",
+                    //         Toast.LENGTH_LONG).show();
                 }
                 else
                 {
 
                     //Toast.makeText(getApplicationContext(), "GCM failure",
-                      //       Toast.LENGTH_LONG).show();
+                    //       Toast.LENGTH_LONG).show();
                 }
             }
         };
@@ -319,7 +323,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         mWaveSwipeRefreshLayout = (WaveSwipeRefreshLayout) findViewById(R.id.main_swipe);
         mWaveSwipeRefreshLayout.setColorSchemeColors(Color.WHITE, Color.WHITE);
         mWaveSwipeRefreshLayout.setWaveColor(color);
-       // mWaveSwipeRefreshLayout.setWaveColor(0xFF000000 + new Random().nextInt(0xFFFFFF)); // Random assign
+        // mWaveSwipeRefreshLayout.setWaveColor(0xFF000000 + new Random().nextInt(0xFFFFFF)); // Random assign
 
         Log.e(TAG, "color : "+color);
         mWaveSwipeRefreshLayout.setOnRefreshListener(new WaveSwipeRefreshLayout.OnRefreshListener() {
@@ -363,6 +367,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
         // Connect to Google API Client
         Onstart = true;
+        Check_time_main = true;
         googleApiClient.connect();
     }
 
@@ -372,6 +377,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         if (googleApiClient != null && googleApiClient.isConnected()) {
             // Disconnect Google API Client if available and connected
             Onstart = false;
+            Check_time_main = false;
             googleApiClient.disconnect();
         }
     }
@@ -401,6 +407,9 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             public void onClick(DialogInterface dialog, int which) {
 
                 Onstart = false;
+
+                Check_time_main = false;
+
                 finish();
             }
         });
@@ -461,7 +470,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         {
             if(Station[i][1].equals(marker.getTitle()))
             {
-                //Toast.makeText(getApplicationContext(), ""+Station[i][1], Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(), Station[i][1], Toast.LENGTH_LONG).show();
                 Station_number_dialog = i;
                 DistanceStationFirst_dialog = Double.parseDouble(Station[i][4]);
                 DistanceStationSecond_dialog = Double.parseDouble(Station[i][5]);
@@ -524,33 +533,33 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         Double Temp_distance2 = 9999999.0;
 
 
-            for(int i = 0 ; i < Station.length ; i++)
+        for(int i = 0 ; i < Station.length ; i++)
+        {
+
+            Temp_distance = Distance.calculateDistance(location.getLatitude(), location.getLongitude(), Double.parseDouble(Station[i][2]), Double.parseDouble(Station[i][3]));
+            if(Temp_distance <= Temp_distance2)
             {
-
-                Temp_distance = Distance.calculateDistance(location.getLatitude(), location.getLongitude(), Double.parseDouble(Station[i][2]), Double.parseDouble(Station[i][3]));
-                if(Temp_distance <= Temp_distance2)
-                {
-                    Station_number = i;
-                    Temp_distance2 = Temp_distance;
-                    DistanceStationFirst = Double.parseDouble(Station[i][4]);
-                    DistanceStationSecond = Double.parseDouble(Station[i][5]);
-                    DistanceStationFirst_repeatedly = Double.parseDouble(Station[i][6]);
-                    DistanceStationSecond_repeatedly = Double.parseDouble(Station[i][7]);
-                  //  Log.e("LOG TAG", "Cal_near " + i);
-                }
-
-
+                Station_number = i;
+                Temp_distance2 = Temp_distance;
+                DistanceStationFirst = Double.parseDouble(Station[i][4]);
+                DistanceStationSecond = Double.parseDouble(Station[i][5]);
+                DistanceStationFirst_repeatedly = Double.parseDouble(Station[i][6]);
+                DistanceStationSecond_repeatedly = Double.parseDouble(Station[i][7]);
+                //  Log.e("LOG TAG", "Cal_near " + i);
             }
 
-            First_show.setBackgroundColor(Color.parseColor("#"+Station[Station_number][11]));
-            Second_show.setBackgroundColor(Color.parseColor("#" + Station[Station_number][12]));
+
+        }
+
+        First_show.setBackgroundColor(Color.parseColor("#"+Station[Station_number][11]));
+        Second_show.setBackgroundColor(Color.parseColor("#" + Station[Station_number][12]));
 
 
 
-            textView.setTextColor(Color.parseColor("#" + Station[Station_number][13]));
-            textView2.setTextColor(Color.parseColor("#"+Station[Station_number][14]));
-            textView3.setText(Station[Station_number][1]);
-            textView3.setSelected(true);
+        textView.setTextColor(Color.parseColor("#" + Station[Station_number][13]));
+        textView2.setTextColor(Color.parseColor("#"+Station[Station_number][14]));
+        textView3.setText(Station[Station_number][1]);
+        textView3.setSelected(true);
 
 
     }
@@ -624,7 +633,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                 }
             });
-            
+
         }
 
 
@@ -642,7 +651,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             ST_Marker[i] = Main_Map.addMarker(new MarkerOptions()
                     .position(new LatLng(Double.parseDouble(Station[i][2]), Double.parseDouble(Station[i][3])))
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.point))
-                    .title("" + Station[i][1]));
+                    .title( Station[i][1]));
 
         }
 
@@ -659,90 +668,90 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         Have_Second = false;
         Have_Second_repeatedly = false;
 
-                for (int i = 0; i < TempDataEV.length; i++) {
+        for (int i = 0; i < TempDataEV.length; i++) {
 
-                    if (TempDataEV[i][0] != null && !TempDataEV[i][0].isEmpty() && TempDataEV[i][8].equals("RUN"))
+            if (TempDataEV[i][0] != null && !TempDataEV[i][0].isEmpty() && TempDataEV[i][8].equals("RUN"))
+            {
+
+                // Log.e("LOG TAG", "i : "+i);
+
+                if(Station[Station_number][9].equals(TempDataEV[i][7]))
+                {
+
+                    Double TempDataF = DistanceStationFirst - Double.parseDouble(TempDataEV[i][5]);
+                    Double TempDataF_repeatedly = DistanceStationFirst_repeatedly - Double.parseDouble(TempDataEV[i][5]);
+
+                    if (TempDataF > 0 && TempDataF < TempDistanceFirst)
+                    {
+                        TempDistanceFirst = TempDataF;
+                        TempFirst = i;
+                        first = i;
+
+                        Have_First = true;
+                        Have_First_repeatedly = false;
+
+
+                    }
+                    else if(Boolean.parseBoolean(Station[Station_number][8]) == true && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly)
                     {
 
-                       // Log.e("LOG TAG", "i : "+i);
+                        TempDistanceFirst_repeatedly = TempDataF_repeatedly;
+                        TempFirst = i;
+                        first = i;
 
-                        if(Station[Station_number][9].equals(TempDataEV[i][7]))
-                        {
+                        Have_First = true;
+                        Have_First_repeatedly = true;
 
-                            Double TempDataF = DistanceStationFirst - Double.parseDouble(TempDataEV[i][5]);
-                            Double TempDataF_repeatedly = DistanceStationFirst_repeatedly - Double.parseDouble(TempDataEV[i][5]);
+                        //Log.e("LOG TAG", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY : Have_First : "+Have_First);
+                    }
 
-                            if (TempDataF > 0 && TempDataF < TempDistanceFirst)
-                            {
-                                TempDistanceFirst = TempDataF;
-                                TempFirst = i;
-                                first = i;
+                    //Log.e("LOG TAG", "repeatedly : "+Boolean.parseBoolean(Station[Station_number][8])+" Station[i][8] => "+Station[Station_number][8]+" Station_number : "+Station_number);
 
-                                Have_First = true;
-                                Have_First_repeatedly = false;
-
-
-                            }
-                            else if(Boolean.parseBoolean(Station[Station_number][8]) == true && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly)
-                            {
-
-                                TempDistanceFirst_repeatedly = TempDataF_repeatedly;
-                                TempFirst = i;
-                                first = i;
-
-                                Have_First = true;
-                                Have_First_repeatedly = true;
-
-                                //Log.e("LOG TAG", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY : Have_First : "+Have_First);
-                            }
-
-                            //Log.e("LOG TAG", "repeatedly : "+Boolean.parseBoolean(Station[Station_number][8])+" Station[i][8] => "+Station[Station_number][8]+" Station_number : "+Station_number);
-
-                            EV_Marker = Main_Map.addMarker(new MarkerOptions()
-                                    .position(new LatLng(Double.parseDouble(TempDataEV[i][1]), Double.parseDouble(TempDataEV[i][2])))
-                                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.ev))
-                                    .title("" + TempDataEV[i][6]));
-                        }
-                        else if(Station[Station_number][10].equals(TempDataEV[i][7]))
-                        {
+                    EV_Marker = Main_Map.addMarker(new MarkerOptions()
+                            .position(new LatLng(Double.parseDouble(TempDataEV[i][1]), Double.parseDouble(TempDataEV[i][2])))
+                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.ev))
+                            .title( TempDataEV[i][6]));
+                }
+                else if(Station[Station_number][10].equals(TempDataEV[i][7]))
+                {
 
 
-                            Double TempDataS = DistanceStationSecond - Double.parseDouble(TempDataEV[i][5]);
-                            Double TempDataS_repeatedly = DistanceStationSecond_repeatedly - Double.parseDouble(TempDataEV[i][5]);
+                    Double TempDataS = DistanceStationSecond - Double.parseDouble(TempDataEV[i][5]);
+                    Double TempDataS_repeatedly = DistanceStationSecond_repeatedly - Double.parseDouble(TempDataEV[i][5]);
 
-                            if (TempDataS > 0 && TempDataS < TempDistanceSecond)
-                            {
-                                TempDistanceSecond = TempDataS;
-                                TempSecond = i;
-                                second = i ;
+                    if (TempDataS > 0 && TempDataS < TempDistanceSecond)
+                    {
+                        TempDistanceSecond = TempDataS;
+                        TempSecond = i;
+                        second = i ;
 
-                                Have_Second = true;
-                                Have_Second_repeatedly = false;
-                            }
-                            else if(Boolean.parseBoolean(Station[Station_number][8]) == true && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly)
-                            {
+                        Have_Second = true;
+                        Have_Second_repeatedly = false;
+                    }
+                    else if(Boolean.parseBoolean(Station[Station_number][8]) == true && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly)
+                    {
 
-                                TempDistanceSecond_repeatedly = TempDataS_repeatedly;
-                                TempSecond = i;
-                                second = i ;
+                        TempDistanceSecond_repeatedly = TempDataS_repeatedly;
+                        TempSecond = i;
+                        second = i ;
 
-                                Have_Second = true;
-                                Have_Second_repeatedly = true;
-
-
-                            }
-
-                            EV_Marker = Main_Map.addMarker(new MarkerOptions()
-                                    .position(new LatLng(Double.parseDouble(TempDataEV[i][1]), Double.parseDouble(TempDataEV[i][2])))
-                                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.ev))
-                                    .title("" + TempDataEV[i][6]));
-                        }
+                        Have_Second = true;
+                        Have_Second_repeatedly = true;
 
 
                     }
 
-
+                    EV_Marker = Main_Map.addMarker(new MarkerOptions()
+                            .position(new LatLng(Double.parseDouble(TempDataEV[i][1]), Double.parseDouble(TempDataEV[i][2])))
+                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.ev))
+                            .title( TempDataEV[i][6]));
                 }
+
+
+            }
+
+
+        }
 
 
         //Log.e("LOG TAG", "Have_First : "+Have_First+" Have_Second : "+Have_Second);
@@ -758,7 +767,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         Runnable runnable = new Runnable() {
             private long startTime = System.currentTimeMillis();
             public void run() {
-                while (true) {
+                while (Check_time_main) {
 
                     try {
                         Thread.sleep(1000);
@@ -771,44 +780,45 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                             //Log.e("LOG TAG", "First_time : "+First_time+" GGGGGGGGGGGGGGGGGGGGGG");
 
-                            final int hourF = (First_time / 3600000);
+                            //final int hourF = (First_time / 3600000);
                             final int minuteF = ((First_time % 3600000) / 60000 );
                             final int secondsF = (((First_time % 3600000) % 60000 ) / 1000);
 
-                            final int hourS = (Second_time / 3600000);
+                            //final int hourS = (Second_time / 3600000);
                             final int minuteS = ((Second_time % 3600000) / 60000 );
                             final int secondsS = (((Second_time % 3600000) % 60000 ) / 1000);
 
                             if (Have_First == true && Have_Second == true)
                             {
-                                 //Log.e("LOG TAG", "2Have_First : "+Have_First+" 2Have_Second : "+Have_Second);
+                                //Log.e("LOG TAG", "2Have_First : "+Have_First+" 2Have_Second : "+Have_Second);
 
                                 if(secondsF >= 0 )
                                 {
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
 
-                                        textView.setText("0"+minuteF+":0"+secondsF+" นาที");
+                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
 
-                                        textView.setText("0"+minuteF+":"+secondsF+" นาที");
+                                        //textView.setText("0"+minuteF+":"+secondsF+" นาที");
+                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
-                                        textView.setText(""+minuteF+":0"+secondsF+" นาที");
+                                        textView.setText(minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
-                                        textView.setText("0"+minuteF+":"+secondsF+" นาที");
+                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                        textView.setText(""+minuteF+":"+secondsF+" นาที");
+                                        textView.setText(minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
 
 
                                     }
@@ -816,7 +826,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "First_time"+First_time+"  secondsF : "+secondsF );
-                                    textView.setText("--:-- นาที");
+                                    textView.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
@@ -825,27 +835,27 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
 
-                                        textView2.setText("0"+minuteS+":0"+secondsS+" นาที");
+                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
 
-                                        textView2.setText("0"+minuteS+":"+secondsS+" นาที");
+                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
-                                        textView2.setText(""+minuteS+":0"+secondsS+" นาที");
+                                        textView2.setText(minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
-                                        textView2.setText("0"+minuteS+":"+secondsS+" นาที");
+                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                        textView2.setText(""+minuteS+":"+secondsS+" นาที");
+                                        textView2.setText(minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
 
 
                                     }
@@ -853,7 +863,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "second 1111111111111111111111111111111111");
-                                    textView2.setText("--:-- นาที");
+                                    textView2.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
@@ -862,34 +872,34 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             else if (Have_First == true && Have_Second == false)
                             {
 
-                                textView2.setText("--:-- นาที");
+                                textView2.setText(getResources().getString(R.string.timeEmpty));
 
                                 if(secondsF >= 0 )
                                 {
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
 
-                                        textView.setText("0"+minuteF+":0"+secondsF+" นาที");
+                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
 
-                                        textView.setText("0"+minuteF+":"+secondsF+" นาที");
+                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
-                                        textView.setText(""+minuteF+":0"+secondsF+" นาที");
+                                        textView.setText(minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
-                                        textView.setText("0"+minuteF+":"+secondsF+" นาที");
+                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                        textView.setText(""+minuteF+":"+secondsF+" นาที");
+                                        textView.setText(minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
 
 
                                     }
@@ -897,7 +907,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "first 222222222222222222222222222222");
-                                    textView.setText("--:-- นาที");
+                                    textView.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
@@ -905,33 +915,33 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             }
                             else if (Have_First == false && Have_Second == true)
                             {
-                                textView.setText("--:-- นาที");
+                                textView.setText(getResources().getString(R.string.timeEmpty));
                                 if(secondsS >= 0 )
                                 {
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
 
-                                        textView2.setText("0"+minuteS+":0"+secondsS+" นาที");
+                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
 
-                                        textView2.setText("0"+minuteS+":"+secondsS+" นาที");
+                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
-                                        textView2.setText(""+minuteS+":0"+secondsS+" นาที");
+                                        textView2.setText(minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
-                                        textView2.setText("0"+minuteS+":"+secondsS+" นาที");
+                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                        textView2.setText(""+minuteS+":"+secondsS+" นาที");
+                                        textView2.setText(minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
 
 
                                     }
@@ -939,7 +949,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "second 222222222222222222222222222222");
-                                    textView2.setText("--:-- นาที");
+                                    textView2.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
@@ -948,8 +958,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             {
                                 //Log.e("LOG TAG", "first 3333333333333333333333333333333");
                                 //Log.e("LOG TAG", "second 3333333333333333333333333333333");
-                                textView.setText("--:-- นาที");
-                                textView2.setText("--:-- นาที");
+                                textView.setText(getResources().getString(R.string.timeEmpty));
+                                textView2.setText(getResources().getString(R.string.timeEmpty));
                             }
 
                             First_time = First_time - 1000;
@@ -974,7 +984,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 .callback(new MaterialDialog.ButtonCallback() {
                     @Override
                     public void onPositive(MaterialDialog dialog) {
-                       // Log.e("LOG TAG", "onPositive YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
+                        // Log.e("LOG TAG", "onPositive YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
 
                         Check_time_dialog = false;
                         dialog.dismiss();
@@ -1106,7 +1116,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                         Have_Second_dialog = true;
                         Have_Second_dialog_repeatedly = true;
-                       // Log.e("LOG TAG", "Have_Second_dialog : "+i);
+                        // Log.e("LOG TAG", "Have_Second_dialog : "+i);
 
                     }
 
@@ -1153,7 +1163,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             final int minuteS = ((Second_time_dialog % 3600000) / 60000 );
                             final int secondsS = (((Second_time_dialog % 3600000) % 60000 ) / 1000);
 
-                           // Log.e("LOG TAG", "First_time_dialog " + First_time_dialog + " Second_time_dialog : " + Second_time_dialog);
+                            // Log.e("LOG TAG", "First_time_dialog " + First_time_dialog + " Second_time_dialog : " + Second_time_dialog);
 
 
                             if (Have_First_dialog == true && Have_Second_dialog == true)
@@ -1165,39 +1175,39 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 {
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
-                                       // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("0" + minuteF + ":0" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
-                                       // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("0" + minuteF + ":" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
-                                       // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("" + minuteF + ":0" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
-                                       // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("0" + minuteF + ":" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                       // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("" + minuteF + ":" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
 
 
                                     }
                                 }
                                 else
                                 {
-                                   // Log.e("LOG TAG", "2 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                    TimeFirst_dialog.setText("--:-- นาที");
+                                    // Log.e("LOG TAG", "2 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                    TimeFirst_dialog.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
@@ -1205,39 +1215,39 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 {
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
-                                       // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("0" + minuteS + ":0" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
-                                       // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("0" + minuteS + ":" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
-                                       // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("" + minuteS + ":0" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
-                                       // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("0" + minuteS + ":" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                       // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("" + minuteS + ":" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
 
 
                                     }
                                 }
                                 else
                                 {
-                                   // Log.e("LOG TAG", "2 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                    TimeSecond_dialog.setText("--:-- นาที");
+                                    // Log.e("LOG TAG", "2 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                    TimeSecond_dialog.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
@@ -1250,39 +1260,39 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 {
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
-                                       // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("0" + minuteF + ":0" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
-                                       // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("0" + minuteF + ":" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
-                                       // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("" + minuteF + ":0" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
-                                       // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("0" + minuteF + ":" + secondsF + " นาที");
+                                        // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                      //  Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText("" + minuteF + ":" + secondsF + " นาที");
+                                        //  Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
 
 
                                     }
                                 }
                                 else
                                 {
-                                   // Log.e("LOG TAG", "4 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                    TimeFirst_dialog.setText("--:-- นาที");
+                                    // Log.e("LOG TAG", "4 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                    TimeFirst_dialog.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
@@ -1295,49 +1305,49 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 {
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
-                                       // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("0" + minuteS + ":0" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
-                                      //  Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("0" + minuteS + ":" + secondsS + " นาที");
+                                        //  Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
-                                      //  Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("" + minuteS + ":0" + secondsS + " นาที");
+                                        //  Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
-                                       // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("0" + minuteS + ":" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
 
                                     }
                                     else
                                     {
-                                       // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText("" + minuteS + ":" + secondsS + " นาที");
+                                        // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
 
 
                                     }
                                 }
                                 else
                                 {
-                                   // Log.e("LOG TAG", "4 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                    TimeSecond_dialog.setText("--:-- นาที");
+                                    // Log.e("LOG TAG", "4 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                    TimeSecond_dialog.setText(getResources().getString(R.string.timeEmpty));
 
                                 }
 
                             }
                             else
                             {
-                              //  Log.e("LOG TAG", "111 minuteF : "+minuteF+" secondsF : "+secondsF);
-                              //  Log.e("LOG TAG", "111 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                TimeFirst_dialog.setText("--:-- นาที");
-                                TimeSecond_dialog.setText("--:-- นาที");
+                                //  Log.e("LOG TAG", "111 minuteF : "+minuteF+" secondsF : "+secondsF);
+                                //  Log.e("LOG TAG", "111 minuteS : "+minuteS+" secondsS : "+secondsS);
+                                TimeFirst_dialog.setText(getResources().getString(R.string.timeEmpty));
+                                TimeSecond_dialog.setText(getResources().getString(R.string.timeEmpty));
                             }
 
                             First_time_dialog = First_time_dialog - 1000;
