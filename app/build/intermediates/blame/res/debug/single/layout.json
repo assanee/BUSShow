@@ -136,12 +136,12 @@
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_color.xml",
-        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\dialog_color.xml"
-    },
-    {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_color.xml",
+        "source": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\src\\main\\res\\layout\\dialog_color.xml"
     },
     {
         "merged": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",

@@ -9,6 +9,8 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.annotation.ColorInt;
@@ -313,8 +315,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         }
         initViewrefresh();
 
-        Get_ST();
-        startTimerThread();
+
     }
 
     private void initViewrefresh() {
@@ -369,6 +370,20 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         Onstart = true;
         Check_time_main = true;
         googleApiClient.connect();
+
+        if(isOnline())
+        {
+            Toast.makeText(getApplicationContext(), "isOnline",
+                     Toast.LENGTH_LONG).show();
+            Get_ST();
+            startTimerThread();
+        }
+        else
+        {
+            Toast.makeText(getApplicationContext(), "not Online",
+                    Toast.LENGTH_LONG).show();
+        }
+
     }
 
     @Override
@@ -380,10 +395,12 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             Check_time_main = false;
             googleApiClient.disconnect();
         }
+        finish();
     }
 
     @Override
     protected void onResume() {
+        Check_time_main = true;
         super.onResume();
         LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
                 new IntentFilter(QuickstartPreferences.REGISTRATION_COMPLETE));
@@ -1415,7 +1432,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         });
 
 
-        switchPush.setChecked(tinydb.getBoolean("showPush",false));
+        switchPush.setChecked(tinydb.getBoolean("showPush", false));
 
 
 
@@ -1466,14 +1483,11 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             @Override
             public void onColorChanged(@ColorInt int color) {
 
-                if(BG_select == 1)
-                {
+                if (BG_select == 1) {
                     tinydb.putInt("ColorBG", lobsterPicker.getColor());
                     LY.setBackgroundColor(lobsterPicker.getColor());
-                }
-                else if (BG_select == 2)
-                {
-                    Log.e(TAG, "color2 : "+color);
+                } else if (BG_select == 2) {
+                    Log.e(TAG, "color2 : " + color);
                     tinydb.putInt("ColorRF", lobsterPicker.getColor());
                     mWaveSwipeRefreshLayout.setWaveColor(lobsterPicker.getColor());
                 }
@@ -1567,6 +1581,13 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
 
 
+    }
+
+    public boolean isOnline() {
+        ConnectivityManager cm =
+                (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
 
