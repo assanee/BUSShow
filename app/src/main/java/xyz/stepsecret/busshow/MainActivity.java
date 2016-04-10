@@ -212,6 +212,12 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     private Switch switchPush;
 
     private Boolean Check_time_main = true;
+    public static Boolean Status_Get_EV = true;
+
+    public String Temp_display_first;
+    public String Temp_display_last;
+    public String Temp_display_first_dialog;
+    public String Temp_display_last_dialog;
 
 
     @Override
@@ -333,7 +339,16 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 // Do work to refresh the list here.
                 Log.e(TAG, "onRefresh");
                 //mWaveSwipeRefreshLayout.setRefreshing(false);
-                Get_EV();
+
+                if(isOnline())
+                {
+                    Get_EV();
+                }
+                else
+                {
+                    mWaveSwipeRefreshLayout.setRefreshing(false);
+                }
+
             }
 
         });
@@ -462,8 +477,6 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                     .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
                     .setInterval(5000);
             LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, this);
-        } else {
-            // Do something when Location Provider not available
         }
     }
 
@@ -617,12 +630,16 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
         if(Get_station_success)
         {
+            Status_Get_EV = false;
 
             final Get_EV Get_EV_API = restAdapter.create(Get_EV.class);
 
             Get_EV_API.Get_EV_API("Get_EV", new Callback<Get_EV_Model>() {
                 @Override
                 public void success(Get_EV_Model EV_Model, Response response) {
+
+                    Status_Get_EV = true;
+
                     String[][] dataEV = EV_Model.dataEV();
                     // Log.e("LOG TAG", "Get_EV success " + dataEV.length);
 
@@ -641,6 +658,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                 @Override
                 public void failure(RetrofitError error) {
+
+                    Status_Get_EV = true;
 
                     // Toast.makeText(getApplicationContext(), "GET NOT Success.2",
                     //          Toast.LENGTH_LONG).show();
@@ -805,6 +824,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             final int minuteS = ((Second_time % 3600000) / 60000 );
                             final int secondsS = (((Second_time % 3600000) % 60000 ) / 1000);
 
+                           // Log.e("LOG TAG", "Have_First : "+Have_First+" Have_Second : "+Have_Second);
+
                             if (Have_First == true && Have_Second == true)
                             {
                                 //Log.e("LOG TAG", "2Have_First : "+Have_First+" 2Have_Second : "+Have_Second);
@@ -813,29 +834,33 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 {
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
-
-                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
 
                                         //textView.setText("0"+minuteF+":"+secondsF+" นาที");
-                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
-                                        textView.setText(minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
-                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
                                     }
                                     else
                                     {
-                                        textView.setText(minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
 
                                     }
@@ -843,7 +868,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "First_time"+First_time+"  secondsF : "+secondsF );
-                                    textView.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_first = getResources().getString(R.string.timeEmpty);
+                                    textView.setText(Temp_display_first);
 
                                 }
 
@@ -851,28 +877,31 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 {
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
-
-                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
-
-                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
-                                        textView2.setText(minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
-                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
                                     }
                                     else
                                     {
-                                        textView2.setText(minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
 
                                     }
@@ -880,7 +909,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "second 1111111111111111111111111111111111");
-                                    textView2.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_last = getResources().getString(R.string.timeEmpty);
+                                    textView2.setText(Temp_display_last);
 
                                 }
 
@@ -889,34 +919,38 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             else if (Have_First == true && Have_Second == false)
                             {
 
-                                textView2.setText(getResources().getString(R.string.timeEmpty));
+                                Temp_display_first = getResources().getString(R.string.timeEmpty);
+                                textView2.setText(Temp_display_first);
 
                                 if(secondsF >= 0 )
                                 {
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
-
-                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
-
-                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
-                                        textView.setText(minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = minuteF+getResources().getString(R.string.lastzero)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
-                                        textView.setText(getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = getResources().getString(R.string.zero)+minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
                                     }
                                     else
                                     {
-                                        textView.setText(minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute));
+                                        Temp_display_first = minuteF+getResources().getString(R.string.colon)+secondsF+getResources().getString(R.string.minute);
+                                        textView.setText(Temp_display_first);
 
 
                                     }
@@ -924,7 +958,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "first 222222222222222222222222222222");
-                                    textView.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_first = getResources().getString(R.string.timeEmpty);
+                                    textView.setText(Temp_display_first);
 
                                 }
 
@@ -933,32 +968,36 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             else if (Have_First == false && Have_Second == true)
                             {
                                 textView.setText(getResources().getString(R.string.timeEmpty));
+
                                 if(secondsS >= 0 )
                                 {
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
-
-                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
-
-                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
-                                        textView2.setText(minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = minuteS+getResources().getString(R.string.lastzero)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
-                                        textView2.setText(getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = getResources().getString(R.string.zero)+minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
                                     }
                                     else
                                     {
-                                        textView2.setText(minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute));
+                                        Temp_display_last = minuteS+getResources().getString(R.string.colon)+secondsS+getResources().getString(R.string.minute);
+                                        textView2.setText(Temp_display_last);
 
 
                                     }
@@ -966,7 +1005,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     //Log.e("LOG TAG", "second 222222222222222222222222222222");
-                                    textView2.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_last = getResources().getString(R.string.timeEmpty);
+                                    textView2.setText(Temp_display_last);
 
                                 }
 
@@ -975,8 +1015,9 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             {
                                 //Log.e("LOG TAG", "first 3333333333333333333333333333333");
                                 //Log.e("LOG TAG", "second 3333333333333333333333333333333");
-                                textView.setText(getResources().getString(R.string.timeEmpty));
-                                textView2.setText(getResources().getString(R.string.timeEmpty));
+                                Temp_display_last = getResources().getString(R.string.timeEmpty);
+                                textView.setText(Temp_display_last);
+                                textView2.setText(Temp_display_last);
                             }
 
                             First_time = First_time - 1000;
@@ -1051,7 +1092,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
         Check_time_dialog = true;
         //Log.e("LOG TAG", "startTimerThread_dialog : ");
-        startTimerThread_dialog(dialog);
+        startTimerThread_dialog();
 
     }
 
@@ -1092,7 +1133,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         Have_First_dialog_repeatedly = false;
                         //Log.e("LOG TAG", "Have_First_dialog : "+i);
                     }
-                    else if(Boolean.parseBoolean(Station[Station_number_dialog][8]) == true && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly_dialog)
+                    else if(Boolean.parseBoolean(Station[Station_number_dialog][8]) && TempDataF_repeatedly > 0 && TempDataF_repeatedly < TempDistanceFirst_repeatedly_dialog)
                     {
 
                         TempDistanceFirst_repeatedly_dialog = TempDataF_repeatedly;
@@ -1124,7 +1165,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         Have_Second_dialog_repeatedly = false;
                         //Log.e("LOG TAG", "Have_Second_dialog : "+i);
                     }
-                    else if(Boolean.parseBoolean(Station[Station_number_dialog][8]) == true && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly_dialog)
+                    else if(Boolean.parseBoolean(Station[Station_number_dialog][8]) && TempDataS_repeatedly > 0 && TempDataS_repeatedly < TempDistanceSecond_repeatedly_dialog)
                     {
 
                         TempDistanceSecond_repeatedly_dialog = TempDataS_repeatedly;
@@ -1152,13 +1193,13 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     }
 
-    private void startTimerThread_dialog(final MaterialDialog dialog) {
+    private void startTimerThread_dialog() {
 
 
 
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {
-            private long startTime = System.currentTimeMillis();
+            //private long startTime = System.currentTimeMillis();
             public void run() {
                 while (Check_time_dialog) {
 
@@ -1172,18 +1213,18 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         public void run() {
 
 
-                            final int hourF = (First_time_dialog / 3600000);
+                            //final int hourF = (First_time_dialog / 3600000);
                             final int minuteF = ((First_time_dialog % 3600000) / 60000 );
                             final int secondsF = (((First_time_dialog % 3600000) % 60000 ) / 1000);
 
-                            final int hourS = (Second_time_dialog / 3600000);
+                            //final int hourS = (Second_time_dialog / 3600000);
                             final int minuteS = ((Second_time_dialog % 3600000) / 60000 );
                             final int secondsS = (((Second_time_dialog % 3600000) % 60000 ) / 1000);
 
                             // Log.e("LOG TAG", "First_time_dialog " + First_time_dialog + " Second_time_dialog : " + Second_time_dialog);
 
 
-                            if (Have_First_dialog == true && Have_Second_dialog == true)
+                            if (Have_First_dialog == true && Have_Second_dialog == true )
                             {
 
 
@@ -1193,30 +1234,35 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
                                         // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
                                         // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
                                         // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
                                         // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                     }
                                     else
                                     {
                                         // Log.e("LOG TAG", "1 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
 
                                     }
@@ -1224,7 +1270,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     // Log.e("LOG TAG", "2 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                    TimeFirst_dialog.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_first_dialog = getResources().getString(R.string.timeEmpty);
+                                    TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                 }
 
@@ -1233,30 +1280,35 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
                                         // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
                                         // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
                                         // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
                                         // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                     }
                                     else
                                     {
                                         // Log.e("LOG TAG", "1 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
 
                                     }
@@ -1264,7 +1316,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     // Log.e("LOG TAG", "2 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                    TimeSecond_dialog.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_last_dialog = getResources().getString(R.string.timeEmpty);
+                                    TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                 }
 
@@ -1278,30 +1331,35 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                     if(minuteF < 10 && secondsF < 10 )
                                     {
                                         // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
                                     }
                                     else if(minuteF < 10 && secondsF > 10)
                                     {
                                         // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                     }
                                     else if(minuteF >= 10 && secondsF < 10)
                                     {
                                         // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = minuteF + getResources().getString(R.string.lastzero) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                     }
                                     else if(minuteF < 10 && secondsF == 10)
                                     {
                                         // Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText(getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = getResources().getString(R.string.zero)  + minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                     }
                                     else
                                     {
                                         //  Log.e("LOG TAG", "3 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                        TimeFirst_dialog.setText( minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute));
+                                        Temp_display_first_dialog = minuteF + getResources().getString(R.string.colon) + secondsF +getResources().getString(R.string.minute);
+                                        TimeFirst_dialog.setText(Temp_display_first_dialog);
 
 
                                     }
@@ -1309,7 +1367,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     // Log.e("LOG TAG", "4 minuteF : "+minuteF+" secondsF : "+secondsF);
-                                    TimeFirst_dialog.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_first_dialog = getResources().getString(R.string.timeEmpty);
+                                    TimeFirst_dialog.setText(Temp_display_first_dialog);
 
                                 }
 
@@ -1323,30 +1382,36 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                     if(minuteS < 10 && secondsS < 10 )
                                     {
                                         // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
                                     }
                                     else if(minuteS < 10 && secondsS > 10)
                                     {
                                         //  Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                     }
                                     else if(minuteS >= 10 && secondsS < 10)
                                     {
                                         //  Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute));
+
+                                        Temp_display_last_dialog = minuteS + getResources().getString(R.string.lastzero) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                     }
                                     else if(minuteS < 10 && secondsS == 10)
                                     {
                                         // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText(getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = getResources().getString(R.string.zero)  + minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                     }
                                     else
                                     {
                                         // Log.e("LOG TAG", "3 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                        TimeSecond_dialog.setText( minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute));
+                                        Temp_display_last_dialog = minuteS + getResources().getString(R.string.colon) + secondsS +getResources().getString(R.string.minute);
+                                        TimeSecond_dialog.setText(Temp_display_last_dialog);
 
 
                                     }
@@ -1354,7 +1419,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                                 else
                                 {
                                     // Log.e("LOG TAG", "4 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                    TimeSecond_dialog.setText(getResources().getString(R.string.timeEmpty));
+                                    Temp_display_last_dialog = getResources().getString(R.string.timeEmpty);
+                                    TimeSecond_dialog.setText(Temp_display_last_dialog);
 
                                 }
 
@@ -1363,8 +1429,9 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             {
                                 //  Log.e("LOG TAG", "111 minuteF : "+minuteF+" secondsF : "+secondsF);
                                 //  Log.e("LOG TAG", "111 minuteS : "+minuteS+" secondsS : "+secondsS);
-                                TimeFirst_dialog.setText(getResources().getString(R.string.timeEmpty));
-                                TimeSecond_dialog.setText(getResources().getString(R.string.timeEmpty));
+                                Temp_display_last_dialog = getResources().getString(R.string.timeEmpty);
+                                TimeFirst_dialog.setText(Temp_display_last_dialog);
+                                TimeSecond_dialog.setText(Temp_display_last_dialog);
                             }
 
                             First_time_dialog = First_time_dialog - 1000;
@@ -1413,7 +1480,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         switchPush.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                if (switchPush.isChecked() == true) {
+                if (switchPush.isChecked()) {
 
                     tinydb.putBoolean("showPush",switchPush.isChecked());
 

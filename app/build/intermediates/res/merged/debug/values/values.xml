@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="http://schemas.android.com/tools">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <array name="in_colors">
         <item>#FFB5D4FF</item>
         <item>#FFDEEAFC</item>
@@ -1615,7 +1615,7 @@
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:focusable">true</item>
     </style>
-    <style name="MD_ActionButton.Text" ns1:ignore="NewApi">
+    <style name="MD_ActionButton.Text" ns2:ignore="NewApi">
         <item name="android:textSize">@dimen/md_button_textsize</item>
         <item name="android:singleLine">true</item>
         <item name="android:layout_gravity">center_vertical</item>
@@ -1626,7 +1626,7 @@
         <item name="android:paddingLeft">@dimen/md_button_textpadding_horizontal</item>
         <item name="android:paddingRight">@dimen/md_button_textpadding_horizontal</item>
     </style>
-    <style name="MD_ActionButtonStacked" ns1:ignore="NewApi" parent="@style/MD_ActionButton">
+    <style name="MD_ActionButtonStacked" ns2:ignore="NewApi" parent="@style/MD_ActionButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:paddingLeft">@dimen/md_button_padding_horizontal_internalexternal</item>
         <item name="android:paddingStart">@dimen/md_button_padding_horizontal_internalexternal

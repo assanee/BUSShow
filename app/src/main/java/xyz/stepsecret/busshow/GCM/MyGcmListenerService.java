@@ -63,16 +63,20 @@ public class MyGcmListenerService extends GcmListenerService {
          *     - Store message in local database.
          *     - Update UI.
          */
-        if(MainActivity.Onstart)
+
+        Boolean showPush = false;
+
+        if(MainActivity.Onstart && MainActivity.Status_Get_EV)
         {
             MainActivity.Get_EV();
+            showPush = MainActivity.tinydb.getBoolean("showPush",false);
         }
 
         /**
          * In some cases it may be useful to show a notification indicating to the user
          * that a message was received.
          */
-        Boolean showPush = MainActivity.tinydb.getBoolean("showPush",false);
+
 
         if(showPush)
         {
