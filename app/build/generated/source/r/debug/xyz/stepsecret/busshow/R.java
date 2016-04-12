@@ -3580,7 +3580,7 @@ containing a value of this type.
         public static final int your=0x7f0200be;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f0e0093;
+        public static final int LinearLayout1=0x7f0e0094;
         public static final int Logout=0x7f0e00a3;
         public static final int RelativeLayout1=0x7f0e0099;
         public static final int RelativeLayout2=0x7f0e009c;
@@ -3712,7 +3712,6 @@ containing a value of this type.
         public static final int list_item=0x7f0e006b;
         public static final int lobsterpicker=0x7f0e00b4;
         public static final int logo_only=0x7f0e0059;
-        public static final int main_swipe=0x7f0e0094;
         public static final int map=0x7f0e009f;
         public static final int match_parent=0x7f0e0052;
         public static final int media_actions=0x7f0e00de;
@@ -3787,6 +3786,7 @@ containing a value of this type.
         public static final int strict_sandbox=0x7f0e004e;
         public static final int submit_area=0x7f0e008f;
         public static final int subtitle=0x7f0e00d4;
+        public static final int swipe_refresh=0x7f0e0093;
         public static final int switch1=0x7f0e00bd;
         public static final int tabMode=0x7f0e0013;
         public static final int terrain=0x7f0e003b;

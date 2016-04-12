@@ -124,6 +124,7 @@ public class RegistrationIntentService extends IntentService {
             public void success(PutTOKEN_Model PutTOKEN, Response response) {
 
 
+                Log.e("LOG TAG", "Put Token success");
                 Log.e("LOG TAG", "Put Token error : "+PutTOKEN.getError());
 
             }

@@ -19,6 +19,7 @@ import android.support.v4.app.FragmentActivity;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.View;
@@ -197,7 +198,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     public static Boolean Onstart = false;
 
-    public static WaveSwipeRefreshLayout mWaveSwipeRefreshLayout;
+    //public static WaveSwipeRefreshLayout mWaveSwipeRefreshLayout;
 
     private RelativeLayout re;
     private LobsterPicker lobsterPicker;
@@ -218,6 +219,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     public String Temp_display_last;
     public String Temp_display_first_dialog;
     public String Temp_display_last_dialog;
+
+    public static SwipeRefreshLayout mSwipeRefreshLayout;
 
 
     @Override
@@ -319,6 +322,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             Intent intent = new Intent(this, RegistrationIntentService.class);
             startService(intent);
         }
+
+
         initViewrefresh();
 
 
@@ -327,18 +332,15 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     private void initViewrefresh() {
 
         int color = tinydb.getInt("ColorRF", -43231);
-        mWaveSwipeRefreshLayout = (WaveSwipeRefreshLayout) findViewById(R.id.main_swipe);
-        mWaveSwipeRefreshLayout.setColorSchemeColors(Color.WHITE, Color.WHITE);
-        mWaveSwipeRefreshLayout.setWaveColor(color);
-        // mWaveSwipeRefreshLayout.setWaveColor(0xFF000000 + new Random().nextInt(0xFFFFFF)); // Random assign
 
-        Log.e(TAG, "color : "+color);
-        mWaveSwipeRefreshLayout.setOnRefreshListener(new WaveSwipeRefreshLayout.OnRefreshListener() {
+        mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
+        mSwipeRefreshLayout.setColorSchemeResources(R.color.holo_red, R.color.holo_green, R.color.holo_blue);
+        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                // Do work to refresh the list here.
+                //mSwipeRefreshLayout.setRefreshing(false);
+                mSwipeRefreshLayout.setRefreshing(true);
                 Log.e(TAG, "onRefresh");
-                //mWaveSwipeRefreshLayout.setRefreshing(false);
 
                 if(isOnline())
                 {
@@ -356,12 +358,17 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 }
                 else
                 {
-                    mWaveSwipeRefreshLayout.setRefreshing(false);
+                    mSwipeRefreshLayout.setRefreshing(false);
                 }
 
-            }
 
+
+            }
         });
+
+
+
+
 
 
     }
@@ -660,7 +667,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
 
 
-                    mWaveSwipeRefreshLayout.setRefreshing(false);
+                    mSwipeRefreshLayout.setRefreshing(false);
 
                 }
 
@@ -1566,7 +1573,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 } else if (BG_select == 2) {
                     Log.e(TAG, "color2 : " + color);
                     tinydb.putInt("ColorRF", lobsterPicker.getColor());
-                    mWaveSwipeRefreshLayout.setWaveColor(lobsterPicker.getColor());
+                    //mWaveSwipeRefreshLayout.setWaveColor(lobsterPicker.getColor());
+                    mSwipeRefreshLayout.setProgressBackgroundColorSchemeResource(R.color.color_white);
                 }
                 re.setBackgroundColor(lobsterPicker.getColor());
 
