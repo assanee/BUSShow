@@ -174,7 +174,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     private Boolean Have_Second_dialog = false;
     public static Boolean Have_Second_dialog_repeatedly = false;
 
-    private static Boolean Get_station_success = false;
+    public static Boolean Get_station_success = false;
     public static Boolean Check_Swap_Function = false;
 
     public static Double Cumulative_first = 0.0;
@@ -342,7 +342,17 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                 if(isOnline())
                 {
-                    Get_EV();
+                    if(Get_station_success)
+                    {
+                        Get_EV();
+                    }
+                    else
+                    {
+                        Get_ST();
+                        Get_EV();
+                    }
+
+
                 }
                 else
                 {
@@ -595,7 +605,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     }
 
 
-    public void Get_ST()
+    public static void Get_ST()
     {
 
         final Get_Station Get_ST_API = restAdapter.create(Get_Station.class);
@@ -641,16 +651,14 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                     Status_Get_EV = true;
 
                     String[][] dataEV = EV_Model.dataEV();
-                    // Log.e("LOG TAG", "Get_EV success " + dataEV.length);
+
 
                     Draw(dataEV);
 
-                    // if (!Check_Swap_Function) {
-
-                    //Log.e("LOG TAG", "TempFirst : " + TempFirst + " TempSecond : " + TempSecond);
                     Cumulative.Get_Cumulative(Have_First, Have_Second, TempDataEV, TempFirst, TempSecond);
-                    //    Show();
-                    // }
+
+
+
 
                     mWaveSwipeRefreshLayout.setRefreshing(false);
 
@@ -709,13 +717,15 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             if (TempDataEV[i][0] != null && !TempDataEV[i][0].isEmpty() && TempDataEV[i][8].equals("RUN"))
             {
 
-                // Log.e("LOG TAG", "i : "+i);
 
                 if(Station[Station_number][9].equals(TempDataEV[i][7]))
                 {
 
+
                     Double TempDataF = DistanceStationFirst - Double.parseDouble(TempDataEV[i][5]);
                     Double TempDataF_repeatedly = DistanceStationFirst_repeatedly - Double.parseDouble(TempDataEV[i][5]);
+
+
 
                     if (TempDataF > 0 && TempDataF < TempDistanceFirst)
                     {
@@ -741,6 +751,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         //Log.e("LOG TAG", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY : Have_First : "+Have_First);
                     }
 
+                    Log.e("LOG TAG", "Have_First : "+Have_First +" Have_First_repeatedly : "+Have_First_repeatedly);
                     //Log.e("LOG TAG", "repeatedly : "+Boolean.parseBoolean(Station[Station_number][8])+" Station[i][8] => "+Station[Station_number][8]+" Station_number : "+Station_number);
 
                     EV_Marker = Main_Map.addMarker(new MarkerOptions()
@@ -814,7 +825,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                     handler.post(new Runnable(){
                         public void run() {
 
-                            //Log.e("LOG TAG", "First_time : "+First_time+" GGGGGGGGGGGGGGGGGGGGGG");
+
 
                             //final int hourF = (First_time / 3600000);
                             final int minuteF = ((First_time % 3600000) / 60000 );
@@ -824,11 +835,10 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             final int minuteS = ((Second_time % 3600000) / 60000 );
                             final int secondsS = (((Second_time % 3600000) % 60000 ) / 1000);
 
-                           // Log.e("LOG TAG", "Have_First : "+Have_First+" Have_Second : "+Have_Second);
+                           //Log.e("LOG TAG", "Have_First : "+Have_First+" Have_Second : "+Have_Second);
 
                             if (Have_First == true && Have_Second == true)
                             {
-                                //Log.e("LOG TAG", "2Have_First : "+Have_First+" 2Have_Second : "+Have_Second);
 
                                 if(secondsF >= 0 )
                                 {
