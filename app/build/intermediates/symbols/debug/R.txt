@@ -1005,7 +1005,7 @@ int drawable point2111 0x7f0200bb
 int drawable powered_by_google_dark 0x7f0200bc
 int drawable powered_by_google_light 0x7f0200bd
 int drawable your 0x7f0200be
-int id LinearLayout1 0x7f0e0094
+int id LinearLayout1 0x7f0e0093
 int id Logout 0x7f0e00a3
 int id RelativeLayout1 0x7f0e0099
 int id RelativeLayout2 0x7f0e009c
@@ -1211,7 +1211,7 @@ int id stop 0x7f0e00d9
 int id strict_sandbox 0x7f0e004e
 int id submit_area 0x7f0e008f
 int id subtitle 0x7f0e00d4
-int id swipe_refresh 0x7f0e0093
+int id swipe_refresh 0x7f0e0094
 int id switch1 0x7f0e00bd
 int id tabMode 0x7f0e0013
 int id terrain 0x7f0e003b

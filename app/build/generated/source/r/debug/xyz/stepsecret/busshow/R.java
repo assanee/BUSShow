@@ -3580,7 +3580,7 @@ containing a value of this type.
         public static final int your=0x7f0200be;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f0e0094;
+        public static final int LinearLayout1=0x7f0e0093;
         public static final int Logout=0x7f0e00a3;
         public static final int RelativeLayout1=0x7f0e0099;
         public static final int RelativeLayout2=0x7f0e009c;
@@ -3786,7 +3786,7 @@ containing a value of this type.
         public static final int strict_sandbox=0x7f0e004e;
         public static final int submit_area=0x7f0e008f;
         public static final int subtitle=0x7f0e00d4;
-        public static final int swipe_refresh=0x7f0e0093;
+        public static final int swipe_refresh=0x7f0e0094;
         public static final int switch1=0x7f0e00bd;
         public static final int tabMode=0x7f0e0013;
         public static final int terrain=0x7f0e003b;
