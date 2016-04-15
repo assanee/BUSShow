@@ -11,8 +11,10 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Handler;
 import android.preference.PreferenceManager;
+import android.provider.Settings;
 import android.support.annotation.ColorInt;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
@@ -324,10 +326,25 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         }
 
 
+        turnGPSOn();
         initViewrefresh();
 
 
     }
+
+    @SuppressWarnings("deprecation")
+    private void turnGPSOn(){
+        String provider = Settings.Secure.getString(getContentResolver(), Settings.Secure.LOCATION_PROVIDERS_ALLOWED);
+
+        if(!provider.contains("gps")){ //if gps is disabled
+            final Intent poke = new Intent();
+            poke.setClassName("com.android.settings", "com.android.settings.widget.SettingsAppWidgetProvider");
+            poke.addCategory(Intent.CATEGORY_ALTERNATIVE);
+            poke.setData(Uri.parse("3"));
+            sendBroadcast(poke);
+        }
+    }
+
 
     private void initViewrefresh() {
 
@@ -351,7 +368,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                     else
                     {
                         Get_ST();
-                        Get_EV();
+                        //Get_EV();
                     }
 
 
@@ -615,13 +632,16 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     public static void Get_ST()
     {
 
+        Log.e("LOG TAG", "Get_ST start " );
+
         final Get_Station Get_ST_API = restAdapter.create(Get_Station.class);
 
         Get_ST_API.Get_Station_API("Get_ST", new Callback<Get_Station_Model>() {
             @Override
             public void success(Get_Station_Model ST_Model, Response response) {
                 Station = ST_Model.dataST();
-                // Log.e("LOG TAG", "Get_ST success " + Station.length);
+
+                 Log.e("LOG TAG", "Get_ST success " + Station.length);
 
                 ST_Marker = new Marker[Station.length];
                 Get_station_success = true;
@@ -633,7 +653,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             @Override
             public void failure(RetrofitError error) {
 
-                Log.e("LOG TAG", "Get_EV failure");
+                Log.e("LOG TAG", "Get_ST failure");
 
                 Get_ST();
 
@@ -706,6 +726,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
         }
 
+
         TempDataEV = dataEV;
         DataEV = dataEV;
         TempDistanceFirst = 999999.00;
@@ -758,7 +779,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         //Log.e("LOG TAG", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY : Have_First : "+Have_First);
                     }
 
-                    Log.e("LOG TAG", "Have_First : "+Have_First +" Have_First_repeatedly : "+Have_First_repeatedly);
+                    //Log.e("LOG TAG", "Have_First : "+Have_First +" Have_First_repeatedly : "+Have_First_repeatedly);
                     //Log.e("LOG TAG", "repeatedly : "+Boolean.parseBoolean(Station[Station_number][8])+" Station[i][8] => "+Station[Station_number][8]+" Station_number : "+Station_number);
 
                     EV_Marker = Main_Map.addMarker(new MarkerOptions()
