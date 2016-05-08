@@ -636,7 +636,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
         final Get_Station Get_ST_API = restAdapter.create(Get_Station.class);
 
-        Get_ST_API.Get_Station_API("Get_ST", new Callback<Get_Station_Model>() {
+        Get_ST_API.Get_Station_API(new Callback<Get_Station_Model>() {
             @Override
             public void success(Get_Station_Model ST_Model, Response response) {
                 Station = ST_Model.dataST();
@@ -671,7 +671,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
             final Get_EV Get_EV_API = restAdapter.create(Get_EV.class);
 
-            Get_EV_API.Get_EV_API("Get_EV", new Callback<Get_EV_Model>() {
+            Get_EV_API.Get_EV_API( new Callback<Get_EV_Model>() {
                 @Override
                 public void success(Get_EV_Model EV_Model, Response response) {
 

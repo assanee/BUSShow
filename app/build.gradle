@@ -46,6 +46,8 @@ dependencies {
     compile 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
     compile 'com.getbase:floatingactionbutton:1.10.1'
     compile 'com.larswerkman:lobsterpicker:1.0.1'
+    compile 'com.github.ParkSangGwon:TedPermission:v1.0.8'
+
 
     compile 'com.jaredrummler:material-spinner:1.0.4'
 

@@ -9,11 +9,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.gun0912.tedpermission.PermissionListener;
+
+import java.util.ArrayList;
 
 import retrofit.Callback;
 import retrofit.RestAdapter;
@@ -74,6 +79,22 @@ public class LoginActivity extends AppCompatActivity {
 
 
         check_login();
+
+        PermissionListener permissionlistener = new PermissionListener() {
+            @Override
+            public void onPermissionGranted() {
+                Log.e("LOG TAG", "Get_EV onPermissionGranted *********************");
+                Toast.makeText(getApplicationContext(), "Permission Granted", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onPermissionDenied(ArrayList<String> deniedPermissions) {
+                Log.e("LOG TAG", "Get_EV onPermissionDenied *********************");
+                Toast.makeText(getApplicationContext(), "Permission Denied\n" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show();
+            }
+
+
+        };
     }
 
     @Override

@@ -58,5 +58,8 @@
     <string msgid="5441529851481176817" name="mr_system_route_name">"시스템"</string>
     <string msgid="7498112907524977311" name="mr_user_route_category_name">"기기"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tedpermission_close">닫기</string>
+    <string name="tedpermission_confirm">확인</string>
+    <string name="tedpermission_setting">설정</string>
     <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Google로 구매"</string>
 </resources>

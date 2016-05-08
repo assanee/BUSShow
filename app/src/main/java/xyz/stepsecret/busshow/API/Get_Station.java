@@ -10,7 +10,7 @@ import xyz.stepsecret.busshow.Model.Get_Station_Model;
  */
 public interface Get_Station {
 
-    @GET("/task_manager/v2")
-    public void Get_Station_API(@Query("type") String type, Callback<Get_Station_Model> response);
+    @GET("/task_manager/v1/Get_ST")
+    public void Get_Station_API( Callback<Get_Station_Model> response);
 
 }

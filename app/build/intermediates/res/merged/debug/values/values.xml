@@ -626,6 +626,9 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
+    <string name="tedpermission_close">Close</string>
+    <string name="tedpermission_confirm">Confirm</string>
+    <string name="tedpermission_setting">Setting</string>
     <string name="timeEmpty">--:-- นาที</string>
     <string name="title_activity_chat_room_discussion">ChatRoomDiscussionActivity</string>
     <string name="title_activity_login">LoginActivity</string>
@@ -1944,6 +1947,16 @@
         <item name="mediaRoutePlayDrawable">@drawable/mr_ic_play_light</item>
         <item name="mediaRoutePauseDrawable">@drawable/mr_ic_pause_light</item>
     </style>
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+
+
+  </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>

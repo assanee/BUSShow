@@ -129,6 +129,11 @@
             android:name="com.google.android.gms.measurement.AppMeasurementService"
             android:enabled="true"
             android:exported="false" />
+
+        <activity
+            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Transparent" />
     </application>
 
 </manifest>
