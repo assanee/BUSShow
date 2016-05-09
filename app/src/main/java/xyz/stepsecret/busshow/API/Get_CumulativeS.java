@@ -10,10 +10,9 @@ import xyz.stepsecret.busshow.Model.Get_CumulativeS_Model;
  */
 public interface Get_CumulativeS {
 
-    @GET("/task_manager/v2")
+    @GET("/task_manager/v1/CumulativeS")
     public void Get_CumulativeS_API(
-            @Query("type") String type,
-            @Query("roundflowY") String roundflowR,
-            @Query("EVflowY") String EVflowR,
+            @Query("roundflowS") String roundflowS,
+            @Query("EVflowS") String EVflowS,
             Callback<Get_CumulativeS_Model> response);
 }

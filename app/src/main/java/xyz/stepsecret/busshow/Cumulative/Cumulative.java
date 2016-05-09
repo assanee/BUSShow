@@ -23,7 +23,7 @@ public class Cumulative {
     {
         final Get_CumulativeFS get_CumulativeFS_API = MainActivity.restAdapter.create(Get_CumulativeFS.class);
 
-        get_CumulativeFS_API.Get_CumulativeFS_API("CumulativeFS", roundflowR, EVflowR, roundflowY, EVflowY, new Callback<Get_CumulativeFS_Model>() {
+        get_CumulativeFS_API.Get_CumulativeFS_API( roundflowR, EVflowR, roundflowY, EVflowY, new Callback<Get_CumulativeFS_Model>() {
             @Override
             public void success(Get_CumulativeFS_Model EV_Model, Response response) {
 
@@ -50,7 +50,7 @@ public class Cumulative {
     {
         final Get_CumulativeF get_CumulativeF_API = MainActivity.restAdapter.create(Get_CumulativeF.class);
 
-        get_CumulativeF_API.Get_CumulativeF_API("CumulativeF", roundflowR, EVflowR, new Callback<Get_CumulativeF_Model>() {
+        get_CumulativeF_API.Get_CumulativeF_API( roundflowR, EVflowR, new Callback<Get_CumulativeF_Model>() {
             @Override
             public void success(Get_CumulativeF_Model EV_Model, Response response) {
 
@@ -76,7 +76,7 @@ public class Cumulative {
     {
         final Get_CumulativeS get_CumulativeS_API = MainActivity.restAdapter.create(Get_CumulativeS.class);
 
-        get_CumulativeS_API.Get_CumulativeS_API("CumulativeS", roundflowY, EVflowY, new Callback<Get_CumulativeS_Model>() {
+        get_CumulativeS_API.Get_CumulativeS_API( roundflowY, EVflowY, new Callback<Get_CumulativeS_Model>() {
             @Override
             public void success(Get_CumulativeS_Model EV_Model, Response response) {
 
@@ -103,7 +103,7 @@ public class Cumulative {
     {
         final Get_CumulativeFS get_CumulativeFS_API = MainActivity.restAdapter.create(Get_CumulativeFS.class);
 
-        get_CumulativeFS_API.Get_CumulativeFS_API("CumulativeFS", roundflowR, EVflowR, roundflowY, EVflowY, new Callback<Get_CumulativeFS_Model>() {
+        get_CumulativeFS_API.Get_CumulativeFS_API( roundflowR, EVflowR, roundflowY, EVflowY, new Callback<Get_CumulativeFS_Model>() {
             @Override
             public void success(Get_CumulativeFS_Model EV_Model, Response response) {
 
@@ -130,7 +130,7 @@ public class Cumulative {
     {
         final Get_CumulativeF get_CumulativeF_API = MainActivity.restAdapter.create(Get_CumulativeF.class);
 
-        get_CumulativeF_API.Get_CumulativeF_API("CumulativeF", roundflowR, EVflowR, new Callback<Get_CumulativeF_Model>() {
+        get_CumulativeF_API.Get_CumulativeF_API(roundflowR, EVflowR, new Callback<Get_CumulativeF_Model>() {
             @Override
             public void success(Get_CumulativeF_Model EV_Model, Response response) {
 
@@ -156,7 +156,7 @@ public class Cumulative {
     {
         final Get_CumulativeS get_CumulativeS_API = MainActivity.restAdapter.create(Get_CumulativeS.class);
 
-        get_CumulativeS_API.Get_CumulativeS_API("CumulativeS", roundflowY, EVflowY, new Callback<Get_CumulativeS_Model>() {
+        get_CumulativeS_API.Get_CumulativeS_API(roundflowY, EVflowY, new Callback<Get_CumulativeS_Model>() {
             @Override
             public void success(Get_CumulativeS_Model EV_Model, Response response) {
 

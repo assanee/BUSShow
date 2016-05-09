@@ -129,9 +129,9 @@ public class SignupActivity extends AppCompatActivity {
             @Override
             public void success(SignUP_Model signUP_Model, Response response) {
 
-                String Check_error = signUP_Model.getError();
+                Boolean Check_error = signUP_Model.getError();
 
-                if (Check_error.equals("false")) {
+                if (!Check_error) {
 
                     Toast.makeText(getApplicationContext(), "Sign UP Success.",
                             Toast.LENGTH_LONG).show();

@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Get_CumulativeS_Model {
 
-    @SerializedName("TempcumuY")
+    @SerializedName("TempcumuS")
     private Double TempcumuS ;
 
     public Double TempcumuS() {

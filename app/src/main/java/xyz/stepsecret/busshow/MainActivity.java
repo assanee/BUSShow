@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -178,6 +179,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     public static Boolean Have_Second_dialog_repeatedly = false;
 
     public static Boolean Get_station_success = false;
+    public static Boolean Cal_near_success = false;
     public static Boolean Check_Swap_Function = false;
 
     public static Double Cumulative_first = 0.0;
@@ -228,6 +230,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT);
         setContentView(R.layout.activity_main);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -444,7 +447,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             Check_time_main = false;
             googleApiClient.disconnect();
         }
-        finish();
+        //finish();
     }
 
     @Override
@@ -625,6 +628,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         textView3.setText(Station[Station_number][1]);
         textView3.setSelected(true);
 
+        Cal_near_success = true;
+
 
     }
 
@@ -665,7 +670,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     public static void Get_EV()
     {
 
-        if(Get_station_success)
+        if(Get_station_success && Cal_near_success)
         {
             Status_Get_EV = false;
 

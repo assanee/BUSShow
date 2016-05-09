@@ -10,13 +10,12 @@ import xyz.stepsecret.busshow.Model.Get_CumulativeFS_Model;
  */
 public interface Get_CumulativeFS {
 
-    @GET("/task_manager/v2")
+    @GET("/task_manager/v1/CumulativeFS")
     public void Get_CumulativeFS_API(
-            @Query("type") String type,
-            @Query("roundflowR") String roundflowR,
-            @Query("EVflowR") String EVflowR,
-            @Query("roundflowY") String roundflowY,
-            @Query("EVflowY") String EVflowY,
+            @Query("roundflowF") String roundflowF,
+            @Query("EVflowF") String EVflowF,
+            @Query("roundflowS") String roundflowS,
+            @Query("EVflowS") String EVflowS,
             Callback<Get_CumulativeFS_Model> response);
 
 }

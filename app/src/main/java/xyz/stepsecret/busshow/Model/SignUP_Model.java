@@ -7,11 +7,18 @@ import com.google.gson.annotations.SerializedName;
  */
 public class SignUP_Model {
 
-    @SerializedName("error")
-    private String error ;
+    @SerializedName("message")
+    private String message ;
 
-    public String getError() {
+    @SerializedName("error")
+    private Boolean error ;
+
+    public Boolean getError() {
         return error;
+    }
+
+    public String getMessage() {
+        return message;
     }
 
 }
