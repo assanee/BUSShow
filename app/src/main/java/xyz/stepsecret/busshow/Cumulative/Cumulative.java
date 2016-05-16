@@ -184,17 +184,25 @@ public class Cumulative {
         //Log.e("LOG TAG", "Get_Cumulative => Have_First : "+Have_First+" Have_First : "+Have_Second);
         if (Have_First == true && Have_Second == true)
         {
-            CumulativeFS(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6], TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
+           //CumulativeFS(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6], TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
+
+            MainActivity.Cumulative_first = Double.parseDouble(TempDataEV[TempFirst][9]);
+            MainActivity.Cumulative_Second = Double.parseDouble(TempDataEV[TempSecond][9]);
+            Calculate_Time.Get_TimeFS();
 
         }
         else if (Have_First == true && Have_Second == false)
         {
-            CumulativeF(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6]);
+            //CumulativeF(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6]);
+            MainActivity.Cumulative_first = Double.parseDouble(TempDataEV[TempFirst][9]);
+            Calculate_Time.Get_TimeF();
 
         }
         else if (Have_First == false && Have_Second == true)
         {
-            CumulativeS(TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
+            //CumulativeS(TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
+            MainActivity.Cumulative_Second = Double.parseDouble(TempDataEV[TempSecond][9]);
+            Calculate_Time.Get_TimeS();
 
         }
         else if (Have_First == false && Have_Second == false)
@@ -211,17 +219,24 @@ public class Cumulative {
         //Log.e("LOG TAG", "Get_Cumulative => Have_First : "+Have_First+" Have_First : "+Have_Second);
         if (Have_First == true && Have_Second == true)
         {
-            CumulativeFS_dialog(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6], TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
-
+            //CumulativeFS_dialog(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6], TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
+            MainActivity.Cumulative_first_dialog = Double.parseDouble(TempDataEV[TempFirst][9]);
+            MainActivity.Cumulative_Second_dialog = Double.parseDouble(TempDataEV[TempSecond][9]);
+            Calculate_Time.Get_TimeFS_dialog();
         }
         else if (Have_First == true && Have_Second == false)
         {
-            CumulativeF_dialog(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6]);
+            //CumulativeF_dialog(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6]);
+            MainActivity.Cumulative_first_dialog = Double.parseDouble(TempDataEV[TempFirst][9]);
+            Calculate_Time.Get_TimeF_dialog();
 
         }
         else if (Have_First == false && Have_Second == true)
         {
-            CumulativeS_dialog(TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
+            //CumulativeS_dialog(TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
+            MainActivity.Cumulative_first_dialog = Double.parseDouble(TempDataEV[TempFirst][9]);
+            MainActivity.Cumulative_Second_dialog = Double.parseDouble(TempDataEV[TempSecond][9]);
+            Calculate_Time.Get_TimeS_dialog();
 
         }
         else if (Have_First == false && Have_Second == false)

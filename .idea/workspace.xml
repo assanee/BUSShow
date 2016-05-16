@@ -79,104 +79,165 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Get_CumulativeS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_CumulativeS.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUP_Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/SignUP_Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
               <folding>
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#12324#13063#0" expanded="true" />
+                <element signature="e#13062#13063#0" expanded="true" />
+                <element signature="method#startTimerThread#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#29367#29406#0" expanded="true" />
+                <element signature="e#29415#29458#0" expanded="true" />
+                <element signature="e#29468#29509#0" expanded="true" />
+                <element signature="e#29896#29935#0" expanded="true" />
+                <element signature="e#29944#29984#0" expanded="true" />
+                <element signature="e#29994#30035#0" expanded="true" />
+                <element signature="e#30337#30380#0" expanded="true" />
+                <element signature="e#30390#30431#0" expanded="true" />
+                <element signature="e#30725#30764#0" expanded="true" />
+                <element signature="e#30773#30813#0" expanded="true" />
+                <element signature="e#30823#30864#0" expanded="true" />
+                <element signature="e#31131#31171#0" expanded="true" />
+                <element signature="e#31181#31222#0" expanded="true" />
+                <element signature="e#31611#31655#0" expanded="true" />
+                <element signature="e#32021#32060#0" expanded="true" />
+                <element signature="e#32069#32112#0" expanded="true" />
+                <element signature="e#32122#32163#0" expanded="true" />
+                <element signature="e#32454#32493#0" expanded="true" />
+                <element signature="e#32502#32542#0" expanded="true" />
+                <element signature="e#32552#32593#0" expanded="true" />
+                <element signature="e#32894#32937#0" expanded="true" />
+                <element signature="e#32947#32988#0" expanded="true" />
+                <element signature="e#33281#33320#0" expanded="true" />
+                <element signature="e#33329#33369#0" expanded="true" />
+                <element signature="e#33379#33420#0" expanded="true" />
+                <element signature="e#33686#33726#0" expanded="true" />
+                <element signature="e#33736#33777#0" expanded="true" />
+                <element signature="e#34159#34203#0" expanded="true" />
+                <element signature="e#34511#34555#0" expanded="true" />
+                <element signature="e#34884#34923#0" expanded="true" />
+                <element signature="e#34932#34975#0" expanded="true" />
+                <element signature="e#34985#35026#0" expanded="true" />
+                <element signature="e#35318#35357#0" expanded="true" />
+                <element signature="e#35366#35406#0" expanded="true" />
+                <element signature="e#35416#35457#0" expanded="true" />
+                <element signature="e#35759#35802#0" expanded="true" />
+                <element signature="e#35812#35853#0" expanded="true" />
+                <element signature="e#36147#36186#0" expanded="true" />
+                <element signature="e#36195#36235#0" expanded="true" />
+                <element signature="e#36245#36286#0" expanded="true" />
+                <element signature="e#36553#36593#0" expanded="true" />
+                <element signature="e#36603#36644#0" expanded="true" />
+                <element signature="e#37022#37066#0" expanded="true" />
+                <element signature="e#37369#37413#0" expanded="true" />
+                <element signature="e#37671#37710#0" expanded="true" />
+                <element signature="e#37719#37762#0" expanded="true" />
+                <element signature="e#37772#37813#0" expanded="true" />
+                <element signature="e#38104#38143#0" expanded="true" />
+                <element signature="e#38152#38192#0" expanded="true" />
+                <element signature="e#38202#38243#0" expanded="true" />
+                <element signature="e#38544#38587#0" expanded="true" />
+                <element signature="e#38597#38638#0" expanded="true" />
+                <element signature="e#38931#38970#0" expanded="true" />
+                <element signature="e#38979#39019#0" expanded="true" />
+                <element signature="e#39029#39070#0" expanded="true" />
+                <element signature="e#39336#39376#0" expanded="true" />
+                <element signature="e#39386#39427#0" expanded="true" />
+                <element signature="e#39805#39849#0" expanded="true" />
+                <element signature="e#40293#40337#0" expanded="true" />
+                <element signature="method#showCustomView#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#41016#41416#0" expanded="true" />
+                <element signature="e#41415#41416#0" expanded="true" />
+                <element signature="method#Draw_dialog#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#startTimerThread_dialog#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#48644#48683#0" expanded="true" />
+                <element signature="e#48697#48740#0" expanded="true" />
+                <element signature="e#48753#48794#0" expanded="true" />
+                <element signature="e#49217#49256#0" expanded="true" />
+                <element signature="e#49270#49310#0" expanded="true" />
+                <element signature="e#49323#49364#0" expanded="true" />
+                <element signature="e#49799#49842#0" expanded="true" />
+                <element signature="e#49855#49896#0" expanded="true" />
+                <element signature="e#50321#50360#0" expanded="true" />
+                <element signature="e#50374#50414#0" expanded="true" />
+                <element signature="e#50427#50468#0" expanded="true" />
+                <element signature="e#50868#50908#0" expanded="true" />
+                <element signature="e#50921#50962#0" expanded="true" />
+                <element signature="e#51371#51415#0" expanded="true" />
+                <element signature="e#51912#51951#0" expanded="true" />
+                <element signature="e#51965#52008#0" expanded="true" />
+                <element signature="e#52021#52062#0" expanded="true" />
+                <element signature="e#52484#52523#0" expanded="true" />
+                <element signature="e#52537#52577#0" expanded="true" />
+                <element signature="e#52590#52631#0" expanded="true" />
+                <element signature="e#53065#53108#0" expanded="true" />
+                <element signature="e#53121#53162#0" expanded="true" />
+                <element signature="e#53586#53625#0" expanded="true" />
+                <element signature="e#53639#53679#0" expanded="true" />
+                <element signature="e#53692#53733#0" expanded="true" />
+                <element signature="e#54132#54172#0" expanded="true" />
+                <element signature="e#54185#54226#0" expanded="true" />
+                <element signature="e#54634#54678#0" expanded="true" />
+                <element signature="e#55333#55372#0" expanded="true" />
+                <element signature="e#55386#55429#0" expanded="true" />
+                <element signature="e#55442#55483#0" expanded="true" />
+                <element signature="e#55906#55945#0" expanded="true" />
+                <element signature="e#55959#55999#0" expanded="true" />
+                <element signature="e#56012#56053#0" expanded="true" />
+                <element signature="e#56488#56531#0" expanded="true" />
+                <element signature="e#56544#56585#0" expanded="true" />
+                <element signature="e#57010#57049#0" expanded="true" />
+                <element signature="e#57063#57103#0" expanded="true" />
+                <element signature="e#57116#57157#0" expanded="true" />
+                <element signature="e#57558#57598#0" expanded="true" />
+                <element signature="e#57611#57652#0" expanded="true" />
+                <element signature="e#58061#58105#0" expanded="true" />
+                <element signature="e#58759#58798#0" expanded="true" />
+                <element signature="e#58812#58855#0" expanded="true" />
+                <element signature="e#58868#58909#0" expanded="true" />
+                <element signature="e#59332#59371#0" expanded="true" />
+                <element signature="e#59385#59425#0" expanded="true" />
+                <element signature="e#59438#59479#0" expanded="true" />
+                <element signature="e#59915#59958#0" expanded="true" />
+                <element signature="e#59971#60012#0" expanded="true" />
+                <element signature="e#60436#60475#0" expanded="true" />
+                <element signature="e#60489#60529#0" expanded="true" />
+                <element signature="e#60542#60583#0" expanded="true" />
+                <element signature="e#60982#61022#0" expanded="true" />
+                <element signature="e#61035#61076#0" expanded="true" />
+                <element signature="e#61484#61528#0" expanded="true" />
+                <element signature="e#62015#62059#0" expanded="true" />
+                <element signature="method#Change_push#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#62772#62992#0" expanded="true" />
+                <element signature="e#62991#62992#0" expanded="true" />
+                <element signature="method#Change_color#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#64431#64651#0" expanded="true" />
+                <element signature="e#64650#64651#0" expanded="true" />
+                <element signature="method#Confirm_Logout#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#Logout#0;class#MainActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PutTOKEN_API.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/PutTOKEN_API.java">
+      <file leaf-file-name="Get_EV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_EV.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="34" />
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get_CumulativeF_Model.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeF_Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25415283">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Get_CumulativeFS_Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeFS_Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Get_CumulativeS_Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeS_Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Get_EV_Model.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Get_EV_Model.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_EV_Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Get_Station_Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_Station_Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PutTOKEN_Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/PutTOKEN_Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignIN_Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/SignIN_Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.48920864">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -733,14 +794,9 @@
                 <option name="name" value="prepareComGetbaseFloatingactionbutton1101Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.ParkSangGwon:TedPermission:v1.0.8" />
+                <option name="description" value="Prepare com.github.ParkSangGwon:TedPermission:v1.0.9" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComGithubParkSangGwonTedPermissionV108Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComGithubRecruitLifestyleWaveSwipeRefreshLayout16Library" />
+                <option name="name" value="prepareComGithubParkSangGwonTedPermissionV109Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services:8.3.0" />
@@ -1529,14 +1585,9 @@
                 <option name="name" value="prepareComGetbaseFloatingactionbutton1101Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.ParkSangGwon:TedPermission:v1.0.8" />
+                <option name="description" value="Prepare com.github.ParkSangGwon:TedPermission:v1.0.9" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComGithubParkSangGwonTedPermissionV108Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComGithubRecruitLifestyleWaveSwipeRefreshLayout16Library" />
+                <option name="name" value="prepareComGithubParkSangGwonTedPermissionV109Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services:8.3.0" />
@@ -1864,7 +1915,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4375705211965" />
+        <entry key="$PROJECT_DIR$" value="4376928337144" />
         <entry key="C:\Users\stepsecret\Documents\GitHub\BUSShow" value="4363734806747" />
         <entry key="H:\BUSShow" value="4358578284000" />
       </map>
@@ -2060,10 +2111,8 @@
                             <option value="C:/Android/android-sdk/extras/android/m2repository/com/android/support/cardview-v7/23.1.1/cardview-v7-23.1.1.aar" />
                             <option value="C:/Android/android-sdk/extras/google/m2repository/com/google/android/gms/play-services-identity/8.3.0/play-services-identity-8.3.0.aar" />
                             <option value="C:/Android/android-sdk/extras/google/m2repository/com/google/android/gms/play-services-gcm/8.3.0/play-services-gcm-8.3.0.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.recruit-lifestyle/WaveSwipeRefreshLayout/1.6/61a99f24735f5ab9d99d5455c8b5e7bd850a63fc/WaveSwipeRefreshLayout-1.6.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.getbase/floatingactionbutton/1.10.1/606b307b5073e6228dd7c4ea6b2755dc00d558a5/floatingactionbutton-1.10.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.larswerkman/lobsterpicker/1.0.1/3de36a18dfacea2444ecb219ec41d2fc1ea93704/lobsterpicker-1.0.1.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ParkSangGwon/TedPermission/v1.0.8/c8b3ceb6d233f32d7689ad6d4dbdae53d4b72b74/TedPermission-v1.0.8.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jaredrummler/material-spinner/1.0.4/c4b66c0e1f1a1b3f58dcdd24fbc8a72d1c88cb7b/material-spinner-1.0.4.aar" />
                             <option value="C:/Android/android-sdk/extras/google/m2repository/com/google/android/gms/play-services-measurement/8.3.0/play-services-measurement-8.3.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
@@ -2088,8 +2137,9 @@
                             <option value="C:/Android/android-sdk/extras/google/m2repository/com/google/android/gms/play-services-vision/8.3.0/play-services-vision-8.3.0.aar" />
                             <option value="C:/Android/android-sdk/extras/google/m2repository/com/google/android/gms/play-services-wallet/8.3.0/play-services-wallet-8.3.0.aar" />
                             <option value="C:/Android/android-sdk/extras/google/m2repository/com/google/android/gms/play-services-wearable/8.3.0/play-services-wearable-8.3.0.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.7/69d90fd7fb70e54746e26c10454c220e40a775ce/otto-1.3.7.jar" />
                             <option value="C:/Android/android-sdk/extras/android/m2repository/com/android/support/mediarouter-v7/22.2.0/mediarouter-v7-22.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ParkSangGwon/TedPermission/v1.0.9/4e6dd18cb21d8b9c762a03b1059f77b0ad7c5782/TedPermission-v1.0.9.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.7/69d90fd7fb70e54746e26c10454c220e40a775ce/otto-1.3.7.jar" />
                             <option value="C:/Android/android-sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
                             <option value="C:/Android/android-sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
                             <option value="C:/Android/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
@@ -2265,20 +2315,20 @@
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/GCM/MyGcmListenerService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/GCM/RegistrationIntentService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_Station.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_EV.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/SignUP_Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/SignupActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_CumulativeS.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_CumulativeFS.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Cumulative/Cumulative.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_CumulativeF.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeF_Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeFS_Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeS_Model.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Cumulative/Cumulative.java" />
       </list>
     </option>
   </component>
@@ -2320,211 +2370,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="busshow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="busshow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="busshow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cumulative" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="busshow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyz.stepsecret.busshow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-w820dp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jp.co.recruit_lifestyle.android.widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="Scratches">
+        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -2754,10 +2601,235 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="busshow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="busshow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="busshow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="busshow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cumulative" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="busshow" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
-      <pane id="Scratches">
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xyz.stepsecret.busshow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-w820dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.co.recruit_lifestyle.android.widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
         <subPane />
       </pane>
     </panes>
@@ -3082,7 +3154,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.53846157" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29922137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35038933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3159,7 +3231,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3278,13 +3350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Time/Calculate_Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_fab_star.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3356,13 +3421,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6780303">
@@ -3389,22 +3447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17555939">
           <caret line="20" column="64" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3444,15 +3486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8239202">
           <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028239202">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3460,18 +3493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31063122">
           <caret line="15" column="130" selection-start-line="15" selection-start-column="125" selection-end-line="15" selection-end-column="130" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="750" column="13" selection-start-line="750" selection-start-column="13" selection-end-line="750" selection-end-column="13" />
-          <folding>
-            <element signature="method#Confirm_Logout#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#Logout#0;class#MainActivity#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3479,15 +3500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Cumulative/Cumulative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="158" column="48" selection-start-line="158" selection-start-column="48" selection-end-line="158" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3495,7 +3507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3503,15 +3514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_EV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3519,7 +3521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3527,15 +3528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_EV_Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3543,7 +3535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3551,7 +3542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3560,17 +3550,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/SignUP_Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3590,10 +3569,237 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeF_Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25415283">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.42805755">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/SignUP_Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51978415">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25660378">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_EV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Time/Calculate_Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Cumulative/Cumulative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6451613">
+          <caret line="237" column="26" selection-start-line="237" selection-start-column="26" selection-end-line="237" selection-end-column="26" />
+          <folding>
+            <element signature="method#CumulativeFS#0;class#Cumulative#0" expanded="false" />
+            <element signature="method#CumulativeF#0;class#Cumulative#0" expanded="false" />
+            <element signature="method#CumulativeS#0;class#Cumulative#0" expanded="false" />
+            <element signature="method#CumulativeFS_dialog#0;class#Cumulative#0" expanded="false" />
+            <element signature="method#CumulativeF_dialog#0;class#Cumulative#0" expanded="false" />
+            <element signature="method#CumulativeS_dialog#0;class#Cumulative#0" expanded="false" />
+            <element signature="method#Get_Cumulative#0;class#Cumulative#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12324#13063#0" expanded="true" />
+            <element signature="e#13062#13063#0" expanded="true" />
+            <element signature="method#startTimerThread#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#29367#29406#0" expanded="true" />
+            <element signature="e#29415#29458#0" expanded="true" />
+            <element signature="e#29468#29509#0" expanded="true" />
+            <element signature="e#29896#29935#0" expanded="true" />
+            <element signature="e#29944#29984#0" expanded="true" />
+            <element signature="e#29994#30035#0" expanded="true" />
+            <element signature="e#30337#30380#0" expanded="true" />
+            <element signature="e#30390#30431#0" expanded="true" />
+            <element signature="e#30725#30764#0" expanded="true" />
+            <element signature="e#30773#30813#0" expanded="true" />
+            <element signature="e#30823#30864#0" expanded="true" />
+            <element signature="e#31131#31171#0" expanded="true" />
+            <element signature="e#31181#31222#0" expanded="true" />
+            <element signature="e#31611#31655#0" expanded="true" />
+            <element signature="e#32021#32060#0" expanded="true" />
+            <element signature="e#32069#32112#0" expanded="true" />
+            <element signature="e#32122#32163#0" expanded="true" />
+            <element signature="e#32454#32493#0" expanded="true" />
+            <element signature="e#32502#32542#0" expanded="true" />
+            <element signature="e#32552#32593#0" expanded="true" />
+            <element signature="e#32894#32937#0" expanded="true" />
+            <element signature="e#32947#32988#0" expanded="true" />
+            <element signature="e#33281#33320#0" expanded="true" />
+            <element signature="e#33329#33369#0" expanded="true" />
+            <element signature="e#33379#33420#0" expanded="true" />
+            <element signature="e#33686#33726#0" expanded="true" />
+            <element signature="e#33736#33777#0" expanded="true" />
+            <element signature="e#34159#34203#0" expanded="true" />
+            <element signature="e#34511#34555#0" expanded="true" />
+            <element signature="e#34884#34923#0" expanded="true" />
+            <element signature="e#34932#34975#0" expanded="true" />
+            <element signature="e#34985#35026#0" expanded="true" />
+            <element signature="e#35318#35357#0" expanded="true" />
+            <element signature="e#35366#35406#0" expanded="true" />
+            <element signature="e#35416#35457#0" expanded="true" />
+            <element signature="e#35759#35802#0" expanded="true" />
+            <element signature="e#35812#35853#0" expanded="true" />
+            <element signature="e#36147#36186#0" expanded="true" />
+            <element signature="e#36195#36235#0" expanded="true" />
+            <element signature="e#36245#36286#0" expanded="true" />
+            <element signature="e#36553#36593#0" expanded="true" />
+            <element signature="e#36603#36644#0" expanded="true" />
+            <element signature="e#37022#37066#0" expanded="true" />
+            <element signature="e#37369#37413#0" expanded="true" />
+            <element signature="e#37671#37710#0" expanded="true" />
+            <element signature="e#37719#37762#0" expanded="true" />
+            <element signature="e#37772#37813#0" expanded="true" />
+            <element signature="e#38104#38143#0" expanded="true" />
+            <element signature="e#38152#38192#0" expanded="true" />
+            <element signature="e#38202#38243#0" expanded="true" />
+            <element signature="e#38544#38587#0" expanded="true" />
+            <element signature="e#38597#38638#0" expanded="true" />
+            <element signature="e#38931#38970#0" expanded="true" />
+            <element signature="e#38979#39019#0" expanded="true" />
+            <element signature="e#39029#39070#0" expanded="true" />
+            <element signature="e#39336#39376#0" expanded="true" />
+            <element signature="e#39386#39427#0" expanded="true" />
+            <element signature="e#39805#39849#0" expanded="true" />
+            <element signature="e#40293#40337#0" expanded="true" />
+            <element signature="method#showCustomView#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#41016#41416#0" expanded="true" />
+            <element signature="e#41415#41416#0" expanded="true" />
+            <element signature="method#Draw_dialog#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#startTimerThread_dialog#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#48644#48683#0" expanded="true" />
+            <element signature="e#48697#48740#0" expanded="true" />
+            <element signature="e#48753#48794#0" expanded="true" />
+            <element signature="e#49217#49256#0" expanded="true" />
+            <element signature="e#49270#49310#0" expanded="true" />
+            <element signature="e#49323#49364#0" expanded="true" />
+            <element signature="e#49799#49842#0" expanded="true" />
+            <element signature="e#49855#49896#0" expanded="true" />
+            <element signature="e#50321#50360#0" expanded="true" />
+            <element signature="e#50374#50414#0" expanded="true" />
+            <element signature="e#50427#50468#0" expanded="true" />
+            <element signature="e#50868#50908#0" expanded="true" />
+            <element signature="e#50921#50962#0" expanded="true" />
+            <element signature="e#51371#51415#0" expanded="true" />
+            <element signature="e#51912#51951#0" expanded="true" />
+            <element signature="e#51965#52008#0" expanded="true" />
+            <element signature="e#52021#52062#0" expanded="true" />
+            <element signature="e#52484#52523#0" expanded="true" />
+            <element signature="e#52537#52577#0" expanded="true" />
+            <element signature="e#52590#52631#0" expanded="true" />
+            <element signature="e#53065#53108#0" expanded="true" />
+            <element signature="e#53121#53162#0" expanded="true" />
+            <element signature="e#53586#53625#0" expanded="true" />
+            <element signature="e#53639#53679#0" expanded="true" />
+            <element signature="e#53692#53733#0" expanded="true" />
+            <element signature="e#54132#54172#0" expanded="true" />
+            <element signature="e#54185#54226#0" expanded="true" />
+            <element signature="e#54634#54678#0" expanded="true" />
+            <element signature="e#55333#55372#0" expanded="true" />
+            <element signature="e#55386#55429#0" expanded="true" />
+            <element signature="e#55442#55483#0" expanded="true" />
+            <element signature="e#55906#55945#0" expanded="true" />
+            <element signature="e#55959#55999#0" expanded="true" />
+            <element signature="e#56012#56053#0" expanded="true" />
+            <element signature="e#56488#56531#0" expanded="true" />
+            <element signature="e#56544#56585#0" expanded="true" />
+            <element signature="e#57010#57049#0" expanded="true" />
+            <element signature="e#57063#57103#0" expanded="true" />
+            <element signature="e#57116#57157#0" expanded="true" />
+            <element signature="e#57558#57598#0" expanded="true" />
+            <element signature="e#57611#57652#0" expanded="true" />
+            <element signature="e#58061#58105#0" expanded="true" />
+            <element signature="e#58759#58798#0" expanded="true" />
+            <element signature="e#58812#58855#0" expanded="true" />
+            <element signature="e#58868#58909#0" expanded="true" />
+            <element signature="e#59332#59371#0" expanded="true" />
+            <element signature="e#59385#59425#0" expanded="true" />
+            <element signature="e#59438#59479#0" expanded="true" />
+            <element signature="e#59915#59958#0" expanded="true" />
+            <element signature="e#59971#60012#0" expanded="true" />
+            <element signature="e#60436#60475#0" expanded="true" />
+            <element signature="e#60489#60529#0" expanded="true" />
+            <element signature="e#60542#60583#0" expanded="true" />
+            <element signature="e#60982#61022#0" expanded="true" />
+            <element signature="e#61035#61076#0" expanded="true" />
+            <element signature="e#61484#61528#0" expanded="true" />
+            <element signature="e#62015#62059#0" expanded="true" />
+            <element signature="method#Change_push#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#62772#62992#0" expanded="true" />
+            <element signature="e#62991#62992#0" expanded="true" />
+            <element signature="method#Change_color#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#64431#64651#0" expanded="true" />
+            <element signature="e#64650#64651#0" expanded="true" />
+            <element signature="method#Confirm_Logout#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#Logout#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_EV_Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48920864">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

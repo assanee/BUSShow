@@ -66,7 +66,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout;
+
 import retrofit.Callback;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;

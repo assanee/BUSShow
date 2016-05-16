@@ -17,6 +17,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.gun0912.tedpermission.PermissionListener;
+import com.gun0912.tedpermission.TedPermission;
 
 import java.util.ArrayList;
 
@@ -27,7 +28,7 @@ import retrofit.client.Response;
 import xyz.stepsecret.busshow.API.SignIN_API;
 import xyz.stepsecret.busshow.Model.SignIN_Model;
 import xyz.stepsecret.busshow.TinyDB.TinyDB;
-
+import android.Manifest;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -48,6 +49,30 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        PermissionListener permissionlistener = new PermissionListener() {
+            @Override
+            public void onPermissionGranted() {
+                //Toast.makeText(LoginActivity.this, "Permission Granted", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onPermissionDenied(ArrayList<String> deniedPermissions) {
+                //Toast.makeText(LoginActivity.this, "Permission Denied\n" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show();
+            }
+
+
+        };
+
+
+        new TedPermission(this)
+                .setPermissionListener(permissionlistener)
+                .setRationaleMessage("we need permission for write external storage and find your location")
+                .setDeniedMessage("If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]")
+                .setGotoSettingButtonText("Go to setting")
+                .setPermissions(android.Manifest.permission.WRITE_EXTERNAL_STORAGE, android.Manifest.permission.ACCESS_FINE_LOCATION)
+                .check();
+
 
         tinydb = new TinyDB(getApplicationContext());
 
@@ -80,21 +105,7 @@ public class LoginActivity extends AppCompatActivity {
 
         check_login();
 
-        PermissionListener permissionlistener = new PermissionListener() {
-            @Override
-            public void onPermissionGranted() {
-                Log.e("LOG TAG", "Get_EV onPermissionGranted *********************");
-                Toast.makeText(getApplicationContext(), "Permission Granted", Toast.LENGTH_SHORT).show();
-            }
 
-            @Override
-            public void onPermissionDenied(ArrayList<String> deniedPermissions) {
-                Log.e("LOG TAG", "Get_EV onPermissionDenied *********************");
-                Toast.makeText(getApplicationContext(), "Permission Denied\n" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show();
-            }
-
-
-        };
     }
 
     @Override
