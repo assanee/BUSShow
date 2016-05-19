@@ -209,5 +209,9 @@ public class Calculate_Time {
     }
 
 
+    public static void Refresh(Double refresh)
+    {
+
+    }
 
 }

@@ -184,6 +184,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
     public static Double Cumulative_first = 0.0;
     public static Double Cumulative_Second = 0.0;
+    public static Double Refresh_time = 99999999.0;
 
     public static Double Cumulative_first_dialog = 0.0;
     public static Double Cumulative_Second_dialog = 0.0;
@@ -680,10 +681,13 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                 @Override
                 public void success(Get_EV_Model EV_Model, Response response) {
 
+                    //Log.e("LOG TAG", "Get_EV  success");
+
                     Status_Get_EV = true;
 
                     String[][] dataEV = EV_Model.dataEV();
 
+                    //Log.e("LOG TAG", "Get_Cumulative => Have_First : "+Have_First+" Have_First : "+Have_Second);
 
                     Draw(dataEV);
 
@@ -1065,6 +1069,14 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                             First_time = First_time - 1000;
                             Second_time = Second_time - 1000;
+                            Refresh_time = Refresh_time - 1000;
+
+                            if(Refresh_time <= 0)
+                            {
+                                Log.e("LOG TAG", "Refresh_time"+Refresh_time);
+                                Refresh_time = 99999999.0;
+                                Get_EV();
+                            }
 
 
                         }

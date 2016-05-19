@@ -82,140 +82,18 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.0689654">
+              <caret line="683" column="22" selection-start-line="683" selection-start-column="22" selection-end-line="683" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#12324#13063#0" expanded="true" />
-                <element signature="e#13062#13063#0" expanded="true" />
+                <element signature="method#Cal_near#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#Get_ST#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#startTimerThread#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#29367#29406#0" expanded="true" />
-                <element signature="e#29415#29458#0" expanded="true" />
-                <element signature="e#29468#29509#0" expanded="true" />
-                <element signature="e#29896#29935#0" expanded="true" />
-                <element signature="e#29944#29984#0" expanded="true" />
-                <element signature="e#29994#30035#0" expanded="true" />
-                <element signature="e#30337#30380#0" expanded="true" />
-                <element signature="e#30390#30431#0" expanded="true" />
-                <element signature="e#30725#30764#0" expanded="true" />
-                <element signature="e#30773#30813#0" expanded="true" />
-                <element signature="e#30823#30864#0" expanded="true" />
-                <element signature="e#31131#31171#0" expanded="true" />
-                <element signature="e#31181#31222#0" expanded="true" />
-                <element signature="e#31611#31655#0" expanded="true" />
-                <element signature="e#32021#32060#0" expanded="true" />
-                <element signature="e#32069#32112#0" expanded="true" />
-                <element signature="e#32122#32163#0" expanded="true" />
-                <element signature="e#32454#32493#0" expanded="true" />
-                <element signature="e#32502#32542#0" expanded="true" />
-                <element signature="e#32552#32593#0" expanded="true" />
-                <element signature="e#32894#32937#0" expanded="true" />
-                <element signature="e#32947#32988#0" expanded="true" />
-                <element signature="e#33281#33320#0" expanded="true" />
-                <element signature="e#33329#33369#0" expanded="true" />
-                <element signature="e#33379#33420#0" expanded="true" />
-                <element signature="e#33686#33726#0" expanded="true" />
-                <element signature="e#33736#33777#0" expanded="true" />
-                <element signature="e#34159#34203#0" expanded="true" />
-                <element signature="e#34511#34555#0" expanded="true" />
-                <element signature="e#34884#34923#0" expanded="true" />
-                <element signature="e#34932#34975#0" expanded="true" />
-                <element signature="e#34985#35026#0" expanded="true" />
-                <element signature="e#35318#35357#0" expanded="true" />
-                <element signature="e#35366#35406#0" expanded="true" />
-                <element signature="e#35416#35457#0" expanded="true" />
-                <element signature="e#35759#35802#0" expanded="true" />
-                <element signature="e#35812#35853#0" expanded="true" />
-                <element signature="e#36147#36186#0" expanded="true" />
-                <element signature="e#36195#36235#0" expanded="true" />
-                <element signature="e#36245#36286#0" expanded="true" />
-                <element signature="e#36553#36593#0" expanded="true" />
-                <element signature="e#36603#36644#0" expanded="true" />
-                <element signature="e#37022#37066#0" expanded="true" />
-                <element signature="e#37369#37413#0" expanded="true" />
-                <element signature="e#37671#37710#0" expanded="true" />
-                <element signature="e#37719#37762#0" expanded="true" />
-                <element signature="e#37772#37813#0" expanded="true" />
-                <element signature="e#38104#38143#0" expanded="true" />
-                <element signature="e#38152#38192#0" expanded="true" />
-                <element signature="e#38202#38243#0" expanded="true" />
-                <element signature="e#38544#38587#0" expanded="true" />
-                <element signature="e#38597#38638#0" expanded="true" />
-                <element signature="e#38931#38970#0" expanded="true" />
-                <element signature="e#38979#39019#0" expanded="true" />
-                <element signature="e#39029#39070#0" expanded="true" />
-                <element signature="e#39336#39376#0" expanded="true" />
-                <element signature="e#39386#39427#0" expanded="true" />
-                <element signature="e#39805#39849#0" expanded="true" />
-                <element signature="e#40293#40337#0" expanded="true" />
                 <element signature="method#showCustomView#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#41016#41416#0" expanded="true" />
-                <element signature="e#41415#41416#0" expanded="true" />
                 <element signature="method#Draw_dialog#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#startTimerThread_dialog#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#48644#48683#0" expanded="true" />
-                <element signature="e#48697#48740#0" expanded="true" />
-                <element signature="e#48753#48794#0" expanded="true" />
-                <element signature="e#49217#49256#0" expanded="true" />
-                <element signature="e#49270#49310#0" expanded="true" />
-                <element signature="e#49323#49364#0" expanded="true" />
-                <element signature="e#49799#49842#0" expanded="true" />
-                <element signature="e#49855#49896#0" expanded="true" />
-                <element signature="e#50321#50360#0" expanded="true" />
-                <element signature="e#50374#50414#0" expanded="true" />
-                <element signature="e#50427#50468#0" expanded="true" />
-                <element signature="e#50868#50908#0" expanded="true" />
-                <element signature="e#50921#50962#0" expanded="true" />
-                <element signature="e#51371#51415#0" expanded="true" />
-                <element signature="e#51912#51951#0" expanded="true" />
-                <element signature="e#51965#52008#0" expanded="true" />
-                <element signature="e#52021#52062#0" expanded="true" />
-                <element signature="e#52484#52523#0" expanded="true" />
-                <element signature="e#52537#52577#0" expanded="true" />
-                <element signature="e#52590#52631#0" expanded="true" />
-                <element signature="e#53065#53108#0" expanded="true" />
-                <element signature="e#53121#53162#0" expanded="true" />
-                <element signature="e#53586#53625#0" expanded="true" />
-                <element signature="e#53639#53679#0" expanded="true" />
-                <element signature="e#53692#53733#0" expanded="true" />
-                <element signature="e#54132#54172#0" expanded="true" />
-                <element signature="e#54185#54226#0" expanded="true" />
-                <element signature="e#54634#54678#0" expanded="true" />
-                <element signature="e#55333#55372#0" expanded="true" />
-                <element signature="e#55386#55429#0" expanded="true" />
-                <element signature="e#55442#55483#0" expanded="true" />
-                <element signature="e#55906#55945#0" expanded="true" />
-                <element signature="e#55959#55999#0" expanded="true" />
-                <element signature="e#56012#56053#0" expanded="true" />
-                <element signature="e#56488#56531#0" expanded="true" />
-                <element signature="e#56544#56585#0" expanded="true" />
-                <element signature="e#57010#57049#0" expanded="true" />
-                <element signature="e#57063#57103#0" expanded="true" />
-                <element signature="e#57116#57157#0" expanded="true" />
-                <element signature="e#57558#57598#0" expanded="true" />
-                <element signature="e#57611#57652#0" expanded="true" />
-                <element signature="e#58061#58105#0" expanded="true" />
-                <element signature="e#58759#58798#0" expanded="true" />
-                <element signature="e#58812#58855#0" expanded="true" />
-                <element signature="e#58868#58909#0" expanded="true" />
-                <element signature="e#59332#59371#0" expanded="true" />
-                <element signature="e#59385#59425#0" expanded="true" />
-                <element signature="e#59438#59479#0" expanded="true" />
-                <element signature="e#59915#59958#0" expanded="true" />
-                <element signature="e#59971#60012#0" expanded="true" />
-                <element signature="e#60436#60475#0" expanded="true" />
-                <element signature="e#60489#60529#0" expanded="true" />
-                <element signature="e#60542#60583#0" expanded="true" />
-                <element signature="e#60982#61022#0" expanded="true" />
-                <element signature="e#61035#61076#0" expanded="true" />
-                <element signature="e#61484#61528#0" expanded="true" />
-                <element signature="e#62015#62059#0" expanded="true" />
                 <element signature="method#Change_push#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#62772#62992#0" expanded="true" />
-                <element signature="e#62991#62992#0" expanded="true" />
                 <element signature="method#Change_color#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#64431#64651#0" expanded="true" />
-                <element signature="e#64650#64651#0" expanded="true" />
                 <element signature="method#Confirm_Logout#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#Logout#0;class#MainActivity#0" expanded="false" />
               </folding>
@@ -223,22 +101,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get_EV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_EV.java">
+      <file leaf-file-name="Cumulative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Cumulative/Cumulative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50209206">
+              <caret line="267" column="54" selection-start-line="267" selection-start-column="54" selection-end-line="267" selection-end-column="54" />
+              <folding>
+                <element signature="method#CumulativeFS#0;class#Cumulative#0" expanded="false" />
+                <element signature="method#CumulativeF#0;class#Cumulative#0" expanded="false" />
+                <element signature="method#CumulativeS#0;class#Cumulative#0" expanded="false" />
+                <element signature="method#CumulativeFS_dialog#0;class#Cumulative#0" expanded="false" />
+                <element signature="method#CumulativeF_dialog#0;class#Cumulative#0" expanded="false" />
+                <element signature="method#CumulativeS_dialog#0;class#Cumulative#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Get_EV_Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_EV_Model.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get_EV_Model.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_EV_Model.java">
+      <file leaf-file-name="Calculate_Time.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Time/Calculate_Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48920864">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="211" column="45" selection-start-line="211" selection-start-column="45" selection-end-line="211" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Get_TimeFS#0;class#Calculate_Time#0" expanded="false" />
+                <element signature="method#Get_TimeF#0;class#Calculate_Time#0" expanded="false" />
+                <element signature="method#Get_TimeS#0;class#Calculate_Time#0" expanded="false" />
+                <element signature="method#Get_TimeFS_dialog#0;class#Calculate_Time#0" expanded="false" />
+                <element signature="method#Get_TimeF_dialog#0;class#Calculate_Time#0" expanded="false" />
+                <element signature="method#Get_TimeS_dialog#0;class#Calculate_Time#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2300,7 +2203,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_signup.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Time/Calculate_Time.java" />
         <option value="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.wnafee/vector-compat/1.0.5/res/drawable/ic_arrow_vector.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Test.java" />
@@ -2325,9 +2227,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeF_Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeFS_Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_CumulativeS_Model.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Time/Calculate_Time.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Cumulative/Cumulative.java" />
       </list>
     </option>
@@ -2370,8 +2273,89 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xyz.stepsecret.busshow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-w820dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BUSShow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jp.co.recruit_lifestyle.android.widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -2601,6 +2585,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2621,6 +2608,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2708,124 +2699,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="busshow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cumulative" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="busshow" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyz.stepsecret.busshow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-w820dp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BUSShow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jp.co.recruit_lifestyle.android.widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2843,7 +2716,7 @@
     <property name="ExportApk.BuildType" value="release" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="CKT X" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
-    <property name="device.picker.selection" value="3204a8e27572c1a9" />
+    <property name="device.picker.selection" value="10.58.174.63:5555" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -3154,7 +3027,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.53846157" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35038933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4371524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3299,7 +3172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3310,11 +3182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3448277">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <element signature="e#564#604#0" expanded="true" />
-            <element signature="e#1291#1311#0" expanded="true" />
-            <element signature="e#1831#1854#0" expanded="true" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3325,7 +3192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3336,7 +3202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.1034484">
           <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3359,7 +3224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1724138">
           <caret line="2" column="55" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3385,7 +3249,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -3403,7 +3266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="53" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3414,7 +3276,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -3469,13 +3330,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="51" />
-          <folding>
-            <element signature="e#766#4409#0" expanded="false" />
-            <element signature="e#1088#2372#0" expanded="false" />
-            <element signature="e#2378#3378#0" expanded="false" />
-            <element signature="e#3383#4385#0" expanded="false" />
-            <element signature="e#4486#7713#0" expanded="false" />
-          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -3549,7 +3403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3557,7 +3410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3565,7 +3417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3589,9 +3440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3599,7 +3447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42805755">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3607,10 +3454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51978415">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#340#341#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3624,7 +3467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/API/Get_EV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.27517986">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
@@ -3633,15 +3476,51 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Time/Calculate_Time.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="119" />
+          <caret line="211" column="45" selection-start-line="211" selection-start-column="45" selection-end-line="211" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Get_TimeFS#0;class#Calculate_Time#0" expanded="false" />
+            <element signature="method#Get_TimeF#0;class#Calculate_Time#0" expanded="false" />
+            <element signature="method#Get_TimeS#0;class#Calculate_Time#0" expanded="false" />
+            <element signature="method#Get_TimeFS_dialog#0;class#Calculate_Time#0" expanded="false" />
+            <element signature="method#Get_TimeF_dialog#0;class#Calculate_Time#0" expanded="false" />
+            <element signature="method#Get_TimeS_dialog#0;class#Calculate_Time#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_EV_Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0689654">
+          <caret line="683" column="22" selection-start-line="683" selection-start-column="22" selection-end-line="683" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Cal_near#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#Get_ST#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#startTimerThread#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#showCustomView#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#Draw_dialog#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#startTimerThread_dialog#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#Change_push#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#Change_color#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#Confirm_Logout#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#Logout#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Cumulative/Cumulative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6451613">
-          <caret line="237" column="26" selection-start-line="237" selection-start-column="26" selection-end-line="237" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.50209206">
+          <caret line="267" column="54" selection-start-line="267" selection-start-column="54" selection-end-line="267" selection-end-column="54" />
           <folding>
             <element signature="method#CumulativeFS#0;class#Cumulative#0" expanded="false" />
             <element signature="method#CumulativeF#0;class#Cumulative#0" expanded="false" />
@@ -3649,158 +3528,7 @@
             <element signature="method#CumulativeFS_dialog#0;class#Cumulative#0" expanded="false" />
             <element signature="method#CumulativeF_dialog#0;class#Cumulative#0" expanded="false" />
             <element signature="method#CumulativeS_dialog#0;class#Cumulative#0" expanded="false" />
-            <element signature="method#Get_Cumulative#0;class#Cumulative#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12324#13063#0" expanded="true" />
-            <element signature="e#13062#13063#0" expanded="true" />
-            <element signature="method#startTimerThread#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#29367#29406#0" expanded="true" />
-            <element signature="e#29415#29458#0" expanded="true" />
-            <element signature="e#29468#29509#0" expanded="true" />
-            <element signature="e#29896#29935#0" expanded="true" />
-            <element signature="e#29944#29984#0" expanded="true" />
-            <element signature="e#29994#30035#0" expanded="true" />
-            <element signature="e#30337#30380#0" expanded="true" />
-            <element signature="e#30390#30431#0" expanded="true" />
-            <element signature="e#30725#30764#0" expanded="true" />
-            <element signature="e#30773#30813#0" expanded="true" />
-            <element signature="e#30823#30864#0" expanded="true" />
-            <element signature="e#31131#31171#0" expanded="true" />
-            <element signature="e#31181#31222#0" expanded="true" />
-            <element signature="e#31611#31655#0" expanded="true" />
-            <element signature="e#32021#32060#0" expanded="true" />
-            <element signature="e#32069#32112#0" expanded="true" />
-            <element signature="e#32122#32163#0" expanded="true" />
-            <element signature="e#32454#32493#0" expanded="true" />
-            <element signature="e#32502#32542#0" expanded="true" />
-            <element signature="e#32552#32593#0" expanded="true" />
-            <element signature="e#32894#32937#0" expanded="true" />
-            <element signature="e#32947#32988#0" expanded="true" />
-            <element signature="e#33281#33320#0" expanded="true" />
-            <element signature="e#33329#33369#0" expanded="true" />
-            <element signature="e#33379#33420#0" expanded="true" />
-            <element signature="e#33686#33726#0" expanded="true" />
-            <element signature="e#33736#33777#0" expanded="true" />
-            <element signature="e#34159#34203#0" expanded="true" />
-            <element signature="e#34511#34555#0" expanded="true" />
-            <element signature="e#34884#34923#0" expanded="true" />
-            <element signature="e#34932#34975#0" expanded="true" />
-            <element signature="e#34985#35026#0" expanded="true" />
-            <element signature="e#35318#35357#0" expanded="true" />
-            <element signature="e#35366#35406#0" expanded="true" />
-            <element signature="e#35416#35457#0" expanded="true" />
-            <element signature="e#35759#35802#0" expanded="true" />
-            <element signature="e#35812#35853#0" expanded="true" />
-            <element signature="e#36147#36186#0" expanded="true" />
-            <element signature="e#36195#36235#0" expanded="true" />
-            <element signature="e#36245#36286#0" expanded="true" />
-            <element signature="e#36553#36593#0" expanded="true" />
-            <element signature="e#36603#36644#0" expanded="true" />
-            <element signature="e#37022#37066#0" expanded="true" />
-            <element signature="e#37369#37413#0" expanded="true" />
-            <element signature="e#37671#37710#0" expanded="true" />
-            <element signature="e#37719#37762#0" expanded="true" />
-            <element signature="e#37772#37813#0" expanded="true" />
-            <element signature="e#38104#38143#0" expanded="true" />
-            <element signature="e#38152#38192#0" expanded="true" />
-            <element signature="e#38202#38243#0" expanded="true" />
-            <element signature="e#38544#38587#0" expanded="true" />
-            <element signature="e#38597#38638#0" expanded="true" />
-            <element signature="e#38931#38970#0" expanded="true" />
-            <element signature="e#38979#39019#0" expanded="true" />
-            <element signature="e#39029#39070#0" expanded="true" />
-            <element signature="e#39336#39376#0" expanded="true" />
-            <element signature="e#39386#39427#0" expanded="true" />
-            <element signature="e#39805#39849#0" expanded="true" />
-            <element signature="e#40293#40337#0" expanded="true" />
-            <element signature="method#showCustomView#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#41016#41416#0" expanded="true" />
-            <element signature="e#41415#41416#0" expanded="true" />
-            <element signature="method#Draw_dialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#startTimerThread_dialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#48644#48683#0" expanded="true" />
-            <element signature="e#48697#48740#0" expanded="true" />
-            <element signature="e#48753#48794#0" expanded="true" />
-            <element signature="e#49217#49256#0" expanded="true" />
-            <element signature="e#49270#49310#0" expanded="true" />
-            <element signature="e#49323#49364#0" expanded="true" />
-            <element signature="e#49799#49842#0" expanded="true" />
-            <element signature="e#49855#49896#0" expanded="true" />
-            <element signature="e#50321#50360#0" expanded="true" />
-            <element signature="e#50374#50414#0" expanded="true" />
-            <element signature="e#50427#50468#0" expanded="true" />
-            <element signature="e#50868#50908#0" expanded="true" />
-            <element signature="e#50921#50962#0" expanded="true" />
-            <element signature="e#51371#51415#0" expanded="true" />
-            <element signature="e#51912#51951#0" expanded="true" />
-            <element signature="e#51965#52008#0" expanded="true" />
-            <element signature="e#52021#52062#0" expanded="true" />
-            <element signature="e#52484#52523#0" expanded="true" />
-            <element signature="e#52537#52577#0" expanded="true" />
-            <element signature="e#52590#52631#0" expanded="true" />
-            <element signature="e#53065#53108#0" expanded="true" />
-            <element signature="e#53121#53162#0" expanded="true" />
-            <element signature="e#53586#53625#0" expanded="true" />
-            <element signature="e#53639#53679#0" expanded="true" />
-            <element signature="e#53692#53733#0" expanded="true" />
-            <element signature="e#54132#54172#0" expanded="true" />
-            <element signature="e#54185#54226#0" expanded="true" />
-            <element signature="e#54634#54678#0" expanded="true" />
-            <element signature="e#55333#55372#0" expanded="true" />
-            <element signature="e#55386#55429#0" expanded="true" />
-            <element signature="e#55442#55483#0" expanded="true" />
-            <element signature="e#55906#55945#0" expanded="true" />
-            <element signature="e#55959#55999#0" expanded="true" />
-            <element signature="e#56012#56053#0" expanded="true" />
-            <element signature="e#56488#56531#0" expanded="true" />
-            <element signature="e#56544#56585#0" expanded="true" />
-            <element signature="e#57010#57049#0" expanded="true" />
-            <element signature="e#57063#57103#0" expanded="true" />
-            <element signature="e#57116#57157#0" expanded="true" />
-            <element signature="e#57558#57598#0" expanded="true" />
-            <element signature="e#57611#57652#0" expanded="true" />
-            <element signature="e#58061#58105#0" expanded="true" />
-            <element signature="e#58759#58798#0" expanded="true" />
-            <element signature="e#58812#58855#0" expanded="true" />
-            <element signature="e#58868#58909#0" expanded="true" />
-            <element signature="e#59332#59371#0" expanded="true" />
-            <element signature="e#59385#59425#0" expanded="true" />
-            <element signature="e#59438#59479#0" expanded="true" />
-            <element signature="e#59915#59958#0" expanded="true" />
-            <element signature="e#59971#60012#0" expanded="true" />
-            <element signature="e#60436#60475#0" expanded="true" />
-            <element signature="e#60489#60529#0" expanded="true" />
-            <element signature="e#60542#60583#0" expanded="true" />
-            <element signature="e#60982#61022#0" expanded="true" />
-            <element signature="e#61035#61076#0" expanded="true" />
-            <element signature="e#61484#61528#0" expanded="true" />
-            <element signature="e#62015#62059#0" expanded="true" />
-            <element signature="method#Change_push#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#62772#62992#0" expanded="true" />
-            <element signature="e#62991#62992#0" expanded="true" />
-            <element signature="method#Change_color#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#64431#64651#0" expanded="true" />
-            <element signature="e#64650#64651#0" expanded="true" />
-            <element signature="method#Confirm_Logout#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#Logout#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/xyz/stepsecret/busshow/Model/Get_EV_Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48920864">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

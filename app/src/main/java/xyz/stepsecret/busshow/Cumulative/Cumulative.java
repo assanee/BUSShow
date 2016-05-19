@@ -181,13 +181,27 @@ public class Cumulative {
 
     public static void Get_Cumulative(Boolean Have_First,Boolean Have_Second,String TempDataEV[][],int TempFirst,int TempSecond)
     {
-        //Log.e("LOG TAG", "Get_Cumulative => Have_First : "+Have_First+" Have_First : "+Have_Second);
+       // Log.e("LOG TAG", "Get_Cumulative => Have_First : "+Have_First+" Have_First : "+Have_Second);
         if (Have_First == true && Have_Second == true)
         {
            //CumulativeFS(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6], TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
 
             MainActivity.Cumulative_first = Double.parseDouble(TempDataEV[TempFirst][9]);
             MainActivity.Cumulative_Second = Double.parseDouble(TempDataEV[TempSecond][9]);
+
+            if(Double.parseDouble(TempDataEV[TempFirst][10]) >= Double.parseDouble(TempDataEV[TempSecond][10]) )
+            {
+                MainActivity.Refresh_time = Double.parseDouble(TempDataEV[TempSecond][10]) * 1000;
+
+
+            }
+            else
+            {
+                MainActivity.Refresh_time =  Double.parseDouble(TempDataEV[TempFirst][10]) * 1000;
+
+
+            }
+
             Calculate_Time.Get_TimeFS();
 
         }
@@ -195,6 +209,12 @@ public class Cumulative {
         {
             //CumulativeF(TempDataEV[TempFirst][3], TempDataEV[TempFirst][6]);
             MainActivity.Cumulative_first = Double.parseDouble(TempDataEV[TempFirst][9]);
+
+
+            MainActivity.Refresh_time =  Double.parseDouble(TempDataEV[TempFirst][10]) * 1000;
+
+
+
             Calculate_Time.Get_TimeF();
 
         }
@@ -202,6 +222,10 @@ public class Cumulative {
         {
             //CumulativeS(TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
             MainActivity.Cumulative_Second = Double.parseDouble(TempDataEV[TempSecond][9]);
+
+            MainActivity.Refresh_time = Double.parseDouble(TempDataEV[TempSecond][10]) * 1000;
+
+
             Calculate_Time.Get_TimeS();
 
         }
