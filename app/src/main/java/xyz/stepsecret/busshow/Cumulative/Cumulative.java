@@ -258,7 +258,6 @@ public class Cumulative {
         else if (Have_First == false && Have_Second == true)
         {
             //CumulativeS_dialog(TempDataEV[TempSecond][3], TempDataEV[TempSecond][6]);
-            MainActivity.Cumulative_first_dialog = Double.parseDouble(TempDataEV[TempFirst][9]);
             MainActivity.Cumulative_Second_dialog = Double.parseDouble(TempDataEV[TempSecond][9]);
             Calculate_Time.Get_TimeS_dialog();
 
