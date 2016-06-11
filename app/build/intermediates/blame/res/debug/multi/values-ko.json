@@ -976,122 +976,8 @@
                     "startLine": 53,
                     "startColumn": 4,
                     "startOffset": 6410,
-                    "endColumn": 106,
-                    "endOffset": 6512
-                },
-                "from": {
-                    "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-ko\\values-ko.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 293,
-                        "endColumn": 106,
-                        "endOffset": 395
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 54,
-                    "startColumn": 4,
-                    "startOffset": 6517,
-                    "endColumn": 99,
-                    "endOffset": 6612
-                },
-                "from": {
-                    "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-ko\\values-ko.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 400,
-                        "endColumn": 99,
-                        "endOffset": 495
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 55,
-                    "startColumn": 4,
-                    "startOffset": 6617,
-                    "endColumn": 93,
-                    "endOffset": 6706
-                },
-                "from": {
-                    "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-ko\\values-ko.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 500,
-                        "endColumn": 93,
-                        "endOffset": 589
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 56,
-                    "startColumn": 4,
-                    "startOffset": 6711,
-                    "endColumn": 99,
-                    "endOffset": 6806
-                },
-                "from": {
-                    "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-ko\\values-ko.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 594,
-                        "endColumn": 99,
-                        "endOffset": 689
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 57,
-                    "startColumn": 4,
-                    "startOffset": 6811,
-                    "endColumn": 82,
-                    "endOffset": 6889
-                },
-                "from": {
-                    "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-ko\\values-ko.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 694,
-                        "endColumn": 82,
-                        "endOffset": 772
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 58,
-                    "startColumn": 4,
-                    "startOffset": 6894,
-                    "endColumn": 88,
-                    "endOffset": 6978
-                },
-                "from": {
-                    "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-ko\\values-ko.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 777,
-                        "endColumn": 88,
-                        "endOffset": 861
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 59,
-                    "startColumn": 4,
-                    "startOffset": 6983,
                     "endColumn": 100,
-                    "endOffset": 7079
+                    "endOffset": 6506
                 },
                 "from": {
                     "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-ko\\values-ko.xml",
@@ -1106,11 +992,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 7084,
+                    "startOffset": 6511,
                     "endColumn": 50,
-                    "endOffset": 7130
+                    "endOffset": 6557
                 },
                 "from": {
                     "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.github.ParkSangGwon\\TedPermission\\v1.0.9\\res\\values-ko\\values-ko.xml",
@@ -1125,11 +1011,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 7135,
+                    "startOffset": 6562,
                     "endColumn": 52,
-                    "endOffset": 7183
+                    "endOffset": 6610
                 },
                 "from": {
                     "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.github.ParkSangGwon\\TedPermission\\v1.0.9\\res\\values-ko\\values-ko.xml",
@@ -1144,11 +1030,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 7188,
+                    "startOffset": 6615,
                     "endColumn": 52,
-                    "endOffset": 7236
+                    "endOffset": 6663
                 },
                 "from": {
                     "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.github.ParkSangGwon\\TedPermission\\v1.0.9\\res\\values-ko\\values-ko.xml",
@@ -1158,25 +1044,6 @@
                         "startOffset": 159,
                         "endColumn": 52,
                         "endOffset": 207
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 63,
-                    "startColumn": 4,
-                    "startOffset": 7241,
-                    "endColumn": 99,
-                    "endOffset": 7336
-                },
-                "from": {
-                    "file": "C:\\Users\\stepsecret\\Documents\\GitHub\\BUSShow\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\8.3.0\\res\\values-ko\\wallet_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 99,
-                        "endOffset": 325
                     }
                 }
             }

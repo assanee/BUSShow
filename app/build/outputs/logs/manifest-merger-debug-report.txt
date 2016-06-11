@@ -16,29 +16,17 @@ ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidMani
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:6:5-82
 MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:21:5-82
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:21:5-82
 	android:name
 		ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:6:22-79
 uses-permission#android.permission.WAKE_LOCK
 ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:7:5-68
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:7:22-65
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:10:5-67
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:19:5-67
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
@@ -47,14 +35,7 @@ MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\st
 		ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:11:5-79
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:19:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
@@ -100,62 +81,6 @@ MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\stepsecret\Docume
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:20:5-25:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
@@ -163,41 +88,9 @@ MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecre
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
@@ -250,35 +143,6 @@ ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidMani
 		ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:42:19-49
 meta-data#com.google.android.gms.version
 ADDED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml:44:9-46:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
@@ -355,75 +219,6 @@ MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Document
 MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
@@ -433,53 +228,10 @@ MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecre
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
@@ -507,34 +259,8 @@ MERGED from [com.android.support:support-v4:23.1.1] C:\Users\stepsecret\Document
 	android:minSdkVersion
 		INJECTED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\stepsecret\Documents\GitHub\BUSShow\app\src\main\AndroidManifest.xml
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:26:9-29:64
-	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:28:13-122
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:29:13-61
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:27:13-65
-activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:30:9-31:52
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:31:13-50
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:30:19-91
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:21:9-24:46
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:23:19-52
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:24:19-43
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:22:19-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:21:19-72
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
 		ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:23:8-40
@@ -542,8 +268,6 @@ MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecre
 		ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:24:8-31
 provider#com.google.android.gms.measurement.AppMeasurementContentProvider
 ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
 	android:authorities
 		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:29:11-76
@@ -553,8 +277,6 @@ MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\st
 		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:30:11-90
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
 ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
 	android:enabled
 		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:35:11-33
@@ -569,22 +291,12 @@ ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\ste
 service#com.google.android.gms.measurement.AppMeasurementService
 ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
 	android:enabled
 		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:43:11-33
 	android:exported
 		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:44:11-35
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:42:11-82
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:21:5-70
-	android:name
-		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:21:22-68
-uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:22:5-73
-	android:name
-		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:22:22-71
 activity#com.gun0912.tedpermission.TedPermissionActivity
 ADDED from [com.github.ParkSangGwon:TedPermission:v1.0.9] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.github.ParkSangGwon\TedPermission\v1.0.9\AndroidManifest.xml:10:9-13:56
 MERGED from [com.github.ParkSangGwon:TedPermission:v1.0.9] C:\Users\stepsecret\Documents\GitHub\BUSShow\app\build\intermediates\exploded-aar\com.github.ParkSangGwon\TedPermission\v1.0.9\AndroidManifest.xml:10:9-13:56
